@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 35 25% 96%;
+    --foreground: 20 15% 15%;
+    --card: 35 25% 96%;
+    --card-foreground: 20 15% 15%;
+    --popover: 35 25% 96%;
+    --popover-foreground: 20 15% 15%;
+    --primary: 20 70% 46%;
+    --primary-foreground: 35 25% 96%;
+    --secondary: 130 20% 55%;
+    --secondary-foreground: 20 15% 15%;
+    --muted: 30 15% 90%;
+    --muted-foreground: 20 10% 45%;
+    --accent: 20 70% 46%;
+    --accent-foreground: 35 25% 96%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 30 15% 85%;
+    --input: 30 15% 85%;
+    --ring: 20 70% 46%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 20 15% 15%;
+    --foreground: 35 25% 96%;
+    --card: 20 12% 20%;
+    --card-foreground: 35 25% 96%;
+    --popover: 20 12% 20%;
+    --popover-foreground: 35 25% 96%;
+    --primary: 20 70% 52%;
+    --primary-foreground: 20 15% 15%;
+    --secondary: 130 20% 55%;
+    --secondary-foreground: 35 25% 96%;
+    --muted: 20 10% 25%;
+    --muted-foreground: 30 15% 65%;
+    --accent: 20 70% 52%;
+    --accent-foreground: 20 15% 15%;
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 20 10% 30%;
+    --input: 20 10% 30%;
+    --ring: 20 70% 52%;
+  }
+}
+
+@layer base {
+  * {
+    border-color: hsl(var(--border));
+  }
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-family: "DM Sans", system-ui, sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", Georgia, serif;
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-float { animation: float 6s ease-in-out infinite; }
+.animate-slide-up { animation: slide-up 0.8s ease-out forwards; }
+
+.grain-overlay::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  opacity: 0.03;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+}
+
+html { scroll-behavior: smooth; }
+::selection { background-color: hsl(20 70% 46% / 0.3); }

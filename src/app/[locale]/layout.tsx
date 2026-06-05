@@ -1,0 +1,28 @@
+import type { Metadata } from "next";
+import "../globals.css";
+import ClientBody from "./ClientBody";
+
+export const metadata: Metadata = {
+  title: "Kollective | Creative Digital Agency",
+  description: "Boost your digital presence with precision and purpose.",
+};
+
+// 1. Definimos params como Promise
+interface RootLayoutProps {
+  children: React.ReactNode;
+  params: Promise<{ locale: string }>;
+}
+
+// 2. Marcamos el layout como async
+export default async function RootLayout({ children, params }: RootLayoutProps) {
+  // 3. Resolvemos la promesa
+  const { locale } = await params;
+
+  return (
+    <html lang={locale || 'en'}>
+      <body className="antialiased" suppressHydrationWarning>
+        <ClientBody>{children}</ClientBody>
+      </body>
+    </html>
+  );
+}

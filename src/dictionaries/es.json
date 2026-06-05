@@ -1,0 +1,290 @@
+{
+  "navigation": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "services": "Servicios",
+    "contact": "Contacto",
+    "checkout": "Pagar"
+  },
+  "hero": {
+    "badge": "Agencia Digital Creativa",
+    "title1": "Soluciones",
+    "title2": "Creativas",
+    "description": "Impulsa tu presencia digital con precisión y propósito. En Kollective, creamos experiencias visuales que inspiran, conectan y transforman marcas en historias duraderas.",
+    "btnQuote": "Solicitar Cotización",
+    "btnServices": "Explorar Servicios"
+  },
+  "about": {
+    "title1": "Explora el universo del",
+    "titleHighlight": " diseño digital",
+    "title2": " y la identidad visual inteligente.",
+    "description": "En Kollective, combinamos creatividad y tecnología para construir marcas con propósito, diseño adaptativo y una presencia digital que inspira. Cada proyecto es único, cada resultado cuenta una historia de innovación.",
+    "stats": {
+      "projects": "Proyectos Completados",
+      "satisfaction": "Satisfacción del Cliente"
+    },
+    "btn": "Descubre Más"
+  },
+  "cta": {
+    "title": "Impulsa Tu Presencia Digital Hoy",
+    "description": "Haz realidad tus ideas con Kollective. Unimos creatividad, estrategia y tecnología para diseñar experiencias digitales que inspiran y generan resultados reales.",
+    "btn": "Creemos Algo Extraordinario"
+  },
+  "footer": {
+    "desc": "Somos un equipo apasionado de artesanos digitales, enfocados en crear soluciones innovadoras que transforman ideas en experiencias.",
+    "quickLinks": "Enlaces Rápidos",
+    "contact": "Contáctanos",
+    "rights": "© 2026 Kollective. Todos los derechos reservados.",
+    "terms": "Términos y Condiciones",
+    "privacy": "Aviso de Privacidad"
+  },
+  "cart": {
+    "title": "Tu Carrito",
+    "item": "artículo",
+    "items": "artículos",
+    "emptyTitle": "Tu carrito está vacío",
+    "emptyDesc": "Explora nuestros servicios y agrega los que se adapten a tus necesidades.",
+    "btnBrowse": "Explorar Servicios",
+    "total": "Total",
+    "btnCheckout": "Proceder al Pago",
+    "btnQuote": "Solicitar Cotización",
+    "btnClear": "Vaciar Carrito"
+  },
+  "quoteForm": {
+    "successTitle": "¡Cotización Enviada!",
+    "successDesc": "¡Gracias! Revisaremos tu solicitud y te responderemos en 24-48 horas.",
+    "btnClose": "Cerrar",
+    "title": "Solicitar una Cotización",
+    "desc": "Elige una opción a continuación para proceder con tu cotización.",
+    "tabExisting": "Tengo una Cotización",
+    "tabNew": "Nueva Solicitud",
+    "existingNotice": "Ingresa los detalles de tu cotización para agregarla al carrito y proceder al pago.",
+    "quoteId": "ID de Cotización *",
+    "quoteIdPlaceholder": "ej., QT-2024-001",
+    "serviceName": "Nombre del Servicio *",
+    "serviceNamePlaceholder": "ej., Rediseño Web",
+    "quotePrice": "Precio (MXN) *",
+    "quotePricePlaceholder": "ej., 5000",
+    "btnCancel": "Cancelar",
+    "btnAddCheckout": "Agregar al Carrito y Pagar",
+    "selectedServices": "Servicios Seleccionados",
+    "estTotal": "Total Estimado",
+    "fullName": "Nombre Completo *",
+    "fullNamePlaceholder": "Juan Pérez",
+    "email": "Correo Electrónico *",
+    "emailPlaceholder": "juan@ejemplo.com",
+    "company": "Empresa",
+    "companyPlaceholder": "Tu Empresa",
+    "phone": "Teléfono",
+    "phonePlaceholder": "+52 (55) 0000-0000",
+    "projectDetails": "Detalles del Proyecto",
+    "projectDetailsPlaceholder": "Cuéntanos sobre tu proyecto...",
+    "btnSending": "Enviando...",
+    "btnSubmit": "Enviar Solicitud",
+    "customQuoteDesc": "Servicio de cotización personalizada",
+    "customQuoteCategory": "Cotización"
+  },
+
+  "whyChooseUs": {
+    "title": "Por Qué Nuestros Clientes Confían en Kollective.",
+    "description": "La creatividad impulsa nuestro trabajo, pero la estrategia y los resultados medibles son los que crean valor real. Nuestro equipo combina innovación, diseño y visión de negocios.",
+    "btn": "Hablemos",
+    "items": [
+      { "icon": "unique", "title": "No Eres Solo un Cliente Más", "description": "Único y valioso. Reconocemos tu esencia y la transformamos en una identidad que resuena." },
+      { "icon": "tech", "title": "Creatividad Impulsada por Tecnología", "description": "Fusionamos diseño, arte y desarrollo para crear experiencias digitales innovadoras con precisión." },
+      { "icon": "efficiency", "title": "Eficiencia que Ahorra Tiempo", "description": "Optimizamos procesos sin comprometer la calidad, acelerando entregas y maximizando el valor." },
+      { "icon": "flexibility", "title": "Flexibilidad que Impulsa el Crecimiento", "description": "Nos adaptamos a cada necesidad con soluciones escalables, asegurando evolución continua y resultados." }
+    ]
+  },
+
+  "servicesSection": {
+    "badge": "Nuestros Servicios",
+    "title": "Soluciones a la medida de tu proyecto",
+    "description": "Diseñamos estrategias y desarrollos personalizados, integrando creatividad, tecnología y análisis para potenciar tu marca.",
+    "btnQuote": "Solicitar Cotización Personalizada",
+    "startingFrom": "Desde",
+    "addToCart": "Agregar al Carrito"
+  },
+  "servicesList": [
+    {
+      "id": "NTS-PKG-ORB",
+      "name": "Paquete Órbita Digital",
+      "category": "Paquete Órbita Digital",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=500&auto=format&fit=crop",
+      "price": 28036.00,
+      "description": "Un paquete diseñado para lanzamientos que incluye la portada y el mockup, un video con animación, un elemento GIF, un testimonio en versión premium y 5 horas de asesoría especializada.",
+      "features": []
+    },
+    {
+      "id": "NTS-PKG-PRO",
+      "name": "Paquete Profesional Pro",
+      "category": "Paquete Profesional Pro",
+      "image": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?q=80&w=500&auto=format&fit=crop",
+      "price": 21884.00,
+      "description": "Pensado para creadores de contenido y cursos en línea. Te ofrece 5 recursos de nivel premium: diseño de portada, mockup, un video animado, una plantilla de carrusel y un testimonio.",
+      "features": []
+    },
+    {
+      "id": "NTS-PKG-IMP",
+      "name": "Paquete Impulso Creativo",
+      "category": "Paquete Impulso Creativo",
+      "image": "https://images.unsplash.com/photo-1542435503-956c469947f6?q=80&w=500&auto=format&fit=crop",
+      "price": 12470.00,
+      "description": "Ideal para impulsar marcas personales. Este paquete contiene 5 productos clave: una miniatura (thumbnail) detallada, la portada, una imagen de nivel intermedio, un carrusel y un testimonio.",
+      "features": []
+    },
+    {
+      "id": "NTS-PKG-SEM",
+      "name": "Paquete Semilla Digital",
+      "category": "Paquete Semilla Digital",
+      "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=500&auto=format&fit=crop",
+      "price": 5294.00,
+      "description": "Excelente alternativa para creadores digitales. Te incluye 5 elementos esenciales como una miniatura, un diseño de imagen básico, una imagen destacada, un testimonio sencillo y 8 horas dedicadas al diseño.",
+      "features": []
+    },
+    {
+      "id": "NTS-ADS-CAR-6",
+      "name": "Carrusel para anuncio (6 imágenes)",
+      "category": "DISEÑO (anuncios)",
+      "image": "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?q=80&w=500&auto=format&fit=crop",
+      "price": 5000.00,
+      "description": "Un conjunto de seis imágenes armadas con texto integrado y una estructura visual uniforme, listas para usarse en formatos de carrusel deslizable.",
+      "features": []
+    },
+    {
+      "id": "NTS-TES-ADV",
+      "name": "Testimonio – Avanzado / premium",
+      "category": "Reviews y testimonios integrados al diseño",
+      "image": "https://images.unsplash.com/photo-1557200134-90327ee9fafa?q=80&w=500&auto=format&fit=crop",
+      "price": 5000.00,
+      "description": "Creación de elementos visuales a la medida que incluye animaciones directas en video corto o formato GIF. Te ofrece 4 formatos distintos y te da derecho a un límite de 6 correcciones.",
+      "features": []
+    },
+    {
+      "id": "NTS-DIS-EBOOK-PREM",
+      "name": "Portada de libro digital/interactivo premium",
+      "category": "DISEÑO",
+      "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?q=80&w=500&auto=format&fit=crop",
+      "price": 5000.00,
+      "description": "El diseño integral de tu libro electrónico en 3 partes: el frente, la parte trasera y el lomo. Se entrega con ilustraciones hechas desde cero y la posibilidad de solicitar varias revisiones.",
+      "features": []
+    },
+    {
+      "id": "NTS-ADS-VID-BAS",
+      "name": "Creatividad en video corto (10–30 seg) básica",
+      "category": "DISEÑO (anuncios)",
+      "image": "https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?q=80&w=500&auto=format&fit=crop",
+      "price": 4100.00,
+      "description": "Producción sencilla de clips de video de corta duración (entre 10 y 30 segundos). El entregable incorpora transiciones de texto animadas, láminas visuales y música de fondo básica.",
+      "features": []
+    },
+    {
+      "id": "NTS-TES-INT",
+      "name": "Testimonio – Intermedio",
+      "category": "Reviews y testimonios integrados al diseño",
+      "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=500&auto=format&fit=crop",
+      "price": 2600.00,
+      "description": "Mejora visual de imágenes con una edición fotográfica moderada. Se entregan distintas variantes que incluyen fondos personalizados, efectos de sombras y composiciones más detalladas.",
+      "features": []
+    },
+    {
+      "id": "NTS-DIS-EBOOK-F",
+      "name": "Portada de ebook/libro digital (frontal)",
+      "category": "DISEÑO",
+      "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=500&auto=format&fit=crop",
+      "price": 2300.00,
+      "description": "Diseño exclusivo de la cara frontal de tu libro digital. Se enfoca en una estética limpia apoyada en una buena tipografía y una distribución balanceada de los componentes visuales. El archivo se envía directo en formato digital.",
+      "features": []
+    },
+    {
+      "id": "NTS-DIS-THUMB-ADV",
+      "name": "Miniatura Avanzada / Premium",
+      "category": "DISEÑO",
+      "image": "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?q=80&w=500&auto=format&fit=crop",
+      "price": 1700.00,
+      "description": "Diseño detallado de miniaturas para plataformas de video. Incluye retoque fotográfico avanzado, efectos de iluminación y un estilo gráfico que destaca para mejorar los clics.",
+      "features": []
+    },
+    {
+      "id": "NTS-ADS-IMG-ADV",
+      "name": "Imagen para anuncio Avanzada / Premium",
+      "category": "DISEÑO (anuncios)",
+      "image": "https://images.unsplash.com/photo-1542744094-3a31f103e35f?q=80&w=500&auto=format&fit=crop",
+      "price": 1700.00,
+      "description": "Estrategia e imagen publicitaria optimizada para redes sociales. Cuenta con elementos visuales de alta calidad y un diseño pensado en la conversión de tus campañas.",
+      "features": []
+    },
+    {
+      "id": "NTS-DIS-MOCKUP",
+      "name": "Diseño de Mockup",
+      "category": "DISEÑO",
+      "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=500&auto=format&fit=crop",
+      "price": 1700.00,
+      "description": "Representación visual en tres dimensiones para tus productos digitales o físicos. Sirve para mostrar cómo se ve el producto en pantallas, empaques o dispositivos reales.",
+      "features": []
+    },
+    {
+      "id": "NTS-TES-BAS",
+      "name": "Testimonio – Básico",
+      "category": "Reviews y testimonios integrados al diseño",
+      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=500&auto=format&fit=crop",
+      "price": 1500.00,
+      "description": "Formateo básico y limpio de reseñas o textos de clientes. Se adapta al estilo de tu marca para que los puedas publicar en tu web o redes sociales fácilmente.",
+      "features": []
+    },
+    {
+      "id": "NTS-DIS-CARR-BAS",
+      "name": "Plantilla de carrusel básica",
+      "category": "DISEÑO",
+      "image": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?q=80&w=500&auto=format&fit=crop",
+      "price": 1400.00,
+      "description": "Estructura base para publicaciones deslizables en redes sociales. Cuenta con guías visuales sencillas para que puedas organizar tu contenido de forma ordenada.",
+      "features": []
+    },
+    {
+      "id": "NTS-DIS-THUMB-INT",
+      "name": "Miniatura Intermedia",
+      "category": "DISEÑO",
+      "image": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?q=80&w=500&auto=format&fit=crop",
+      "price": 1000.00,
+      "description": "Diseño de portada para videos con un balance adecuado de textos y edición fotográfica estándar, ideal para mantener un canal activo y ordenado.",
+      "features": []
+    },
+    {
+      "id": "NTS-ADS-IMG-INT",
+      "name": "Imagen para anuncio Intermedia",
+      "category": "DISEÑO (anuncios)",
+      "image": "https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=500&auto=format&fit=crop",
+      "price": 1000.00,
+      "description": "Diseño de un arte publicitario con textos claros y gráficos equilibrados, listo para lanzarse en pautas comerciales digitales.",
+      "features": []
+    },
+    {
+      "id": "NTS-DIS-IMG-FEAT",
+      "name": "Imagen destacada",
+      "category": "DISEÑO",
+      "image": "https://images.unsplash.com/photo-1561070791-26c113006238?q=80&w=500&auto=format&fit=crop",
+      "price": 1000.00,
+      "description": "Diseño de gráfico principal para usar en las secciones más importantes de tu sitio web, blogs o comunicados destacados.",
+      "features": []
+    },
+    {
+      "id": "NTS-DIS-THUMB-BAS",
+      "name": "Miniatura Básica",
+      "category": "DISEÑO",
+      "image": "https://images.unsplash.com/photo-1557200134-90327ee9fafa?q=80&w=500&auto=format&fit=crop",
+      "price": 600.00,
+      "description": "Armado básico de carátulas para contenido multimedia usando títulos legibles y fondos directos sin fotocomposiciones complejas.",
+      "features": []
+    },
+    {
+      "id": "NTS-ADS-IMG-BAS",
+      "name": "Imagen para anuncio Básica",
+      "category": "DISEÑO (anuncios)",
+      "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=500&auto=format&fit=crop",
+      "price": 600.00,
+      "description": "Diseño gráfico esencial enfocado en un mensaje claro para anuncios de bajo presupuesto o campañas rápidas en redes.",
+      "features": []
+    }
+  ]
+}

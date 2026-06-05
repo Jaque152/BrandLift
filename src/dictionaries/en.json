@@ -1,0 +1,286 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Creative Digital Agency",
+    "title1": "Creative",
+    "title2": "Solutions",
+    "description": "Boost your digital presence with precision and purpose. At Kollective, we create visual experiences that inspire, connect, and transform brands into lasting stories.",
+    "btnQuote": "Request Quote",
+    "btnServices": "Explore Services"
+  },
+  "about": {
+    "title1": "Explore the universe of",
+    "titleHighlight": " digital design",
+    "title2": " and intelligent visual identity.",
+    "description": "At Kollective, we combine creativity and technology to build brands with purpose, adaptive design, and digital presence that inspires. Every project is unique, every result tells a story of innovation.",
+    "stats": {
+      "projects": "Projects Completed",
+      "satisfaction": "Client Satisfaction"
+    }
+  },
+  "cta": {
+    "title": "Boost Your Digital Presence Today",
+    "description": "Bring your ideas to life with Kollective. We unite creativity, strategy, and technology to design digital experiences that inspire and generate real results.",
+    "btn": "Let's Create Something Extraordinary"
+  },
+  "footer": {
+    "desc": "We are a passionate team of digital artisans, focused on creating innovative solutions that transform ideas into experiences.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact Us",
+    "rights": "© 2026 Kollective. All rights reserved.",
+    "terms": "Terms & Conditions",
+    "privacy": "Privacy Policy"
+  },
+  "cart": {
+    "title": "Your Cart",
+    "items": "items",
+    "item": "item",
+    "emptyTitle": "Your cart is empty",
+    "emptyDesc": "Explore our services and add the ones that match your needs.",
+    "btnBrowse": "Browse Services",
+    "total": "Total",
+    "btnCheckout": "Proceed to Checkout",
+    "btnQuote": "Request Quote",
+    "btnClear": "Clear Cart"
+  },
+  "quoteForm": {
+    "successTitle": "Quote Request Sent!",
+    "successDesc": "Thank you! We'll review your request and get back to you within 24-48 hours.",
+    "btnClose": "Close",
+    "title": "Request a Quote",
+    "desc": "Choose an option below to proceed with your quote.",
+    "tabExisting": "I Have a Quote",
+    "tabNew": "New Quote Request",
+    "existingNotice": "Enter your quote details to add it to cart and proceed to payment.",
+    "quoteId": "Quote ID *",
+    "quoteIdPlaceholder": "e.g., QT-2024-001",
+    "serviceName": "Service Name *",
+    "serviceNamePlaceholder": "e.g., Website Redesign",
+    "quotePrice": "Quote Price (MXN) *",
+    "quotePricePlaceholder": "e.g., 5000",
+    "btnCancel": "Cancel",
+    "btnAddCheckout": "Add to Cart & Checkout",
+    "selectedServices": "Selected Services",
+    "estTotal": "Estimated Total",
+    "fullName": "Full Name *",
+    "fullNamePlaceholder": "John Doe",
+    "email": "Email Address *",
+    "emailPlaceholder": "john@example.com",
+    "company": "Company",
+    "companyPlaceholder": "Your Company",
+    "phone": "Phone Number",
+    "phonePlaceholder": "+1 (555) 000-0000",
+    "projectDetails": "Project Details",
+    "projectDetailsPlaceholder": "Tell us about your project...",
+    "btnSending": "Sending...",
+    "btnSubmit": "Submit Request",
+    "customQuoteDesc": "Custom quote service",
+    "customQuoteCategory": "Quote"
+  },
+  "whyChooseUs": {
+    "title": "Why Our Clients Trust Kollective.",
+    "description": "Creativity drives our work, but strategy and measurable results are what create real value. Our team combines innovation, design, and business vision.",
+    "btn": "Let's Talk",
+    "items": [
+      { "icon": "unique", "title": "You're Not Just Another Client", "description": "Unique and valuable. We recognize your essence and transform it into an identity that resonates." },
+      { "icon": "tech", "title": "Creativity Powered by Technology", "description": "We fuse design, art, and development to create innovative digital experiences with precision." },
+      { "icon": "efficiency", "title": "Efficiency That Saves Time", "description": "We optimize processes without compromising quality, accelerating deliveries and maximizing value." },
+      { "icon": "flexibility", "title": "Flexibility That Drives Growth", "description": "We adapt to each need with scalable solutions, ensuring continuous evolution and results." }
+    ]
+  },
+  "servicesSection": {
+    "badge": "Our Services",
+    "title": "Customized Solutions for Every Project",
+    "description": "We design strategies and custom developments, integrating creativity, technology, and analysis to enhance your brand.",
+    "btnQuote": "Request Custom Quote",
+    "startingFrom": "Starting from",
+    "addToCart": "Add to Cart"
+  },
+  "servicesList": [
+    {
+      "id": "NTS-PKG-ORB",
+      "name": "Digital Orbit Package",
+      "category": "Digital Orbit Package",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=500&auto=format&fit=crop",
+      "price": 28036.00,
+      "description": "A package designed for launches that includes cover and mockup, an animated video, a GIF element, a premium version testimonial, and 5 hours of specialized consulting.",
+      "features": []
+    },
+    {
+      "id": "NTS-PKG-PRO",
+      "name": "Professional Pro Package",
+      "category": "Professional Pro Package",
+      "image": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?q=80&w=500&auto=format&fit=crop",
+      "price": 21884.00,
+      "description": "Designed for content creators and online courses. Offers 5 premium resources: cover design, mockup, an animated video, a carousel template, and a testimonial.",
+      "features": []
+    },
+    {
+      "id": "NTS-PKG-IMP",
+      "name": "Creative Boost Package",
+      "category": "Creative Boost Package",
+      "image": "https://images.unsplash.com/photo-1542435503-956c469947f6?q=80&w=500&auto=format&fit=crop",
+      "price": 12470.00,
+      "description": "Ideal for boosting personal brands. Contains 5 key products: a detailed thumbnail, cover, intermediate image, carousel, and a testimonial.",
+      "features": []
+    },
+    {
+      "id": "NTS-PKG-SEM",
+      "name": "Digital Seed Package",
+      "category": "Digital Seed Package",
+      "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=500&auto=format&fit=crop",
+      "price": 5294.00,
+      "description": "Excellent alternative for digital creators. Includes 5 essential elements: thumbnail, basic image design, featured image, simple testimonial, and 8 hours dedicated to design.",
+      "features": []
+    },
+    {
+      "id": "NTS-ADS-CAR-6",
+      "name": "Ad Carousel (6 images)",
+      "category": "DESIGN (Ads)",
+      "image": "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?q=80&w=500&auto=format&fit=crop",
+      "price": 5000.00,
+      "description": "A set of six images assembled with integrated text and a uniform visual structure, ready to be used in swipeable carousel formats.",
+      "features": []
+    },
+    {
+      "id": "NTS-TES-ADV",
+      "name": "Testimonial – Advanced / Premium",
+      "category": "Reviews and testimonials integrated into design",
+      "image": "https://images.unsplash.com/photo-1557200134-90327ee9fafa?q=80&w=500&auto=format&fit=crop",
+      "price": 5000.00,
+      "description": "Creation of custom visual elements including direct animations in short video or GIF format. Offers 4 different formats and allows up to 6 revisions.",
+      "features": []
+    },
+    {
+      "id": "NTS-DIS-EBOOK-PREM",
+      "name": "Premium Digital/Interactive Book Cover",
+      "category": "DESIGN",
+      "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?q=80&w=500&auto=format&fit=crop",
+      "price": 5000.00,
+      "description": "Comprehensive design of your e-book in 3 parts: front, back, and spine. Delivered with custom illustrations and the possibility of multiple revisions.",
+      "features": []
+    },
+    {
+      "id": "NTS-ADS-VID-BAS",
+      "name": "Basic Short Video Creative (10-30 sec)",
+      "category": "DESIGN (Ads)",
+      "image": "https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?q=80&w=500&auto=format&fit=crop",
+      "price": 4100.00,
+      "description": "Simple production of short video clips (10-30 seconds). Includes animated text transitions, visual slides, and basic background music.",
+      "features": []
+    },
+    {
+      "id": "NTS-TES-INT",
+      "name": "Testimonial – Intermediate",
+      "category": "Reviews and testimonials integrated into design",
+      "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=500&auto=format&fit=crop",
+      "price": 2600.00,
+      "description": "Visual enhancement of images with moderate photo editing. Delivers different variants including custom backgrounds, shadow effects, and more detailed compositions.",
+      "features": []
+    },
+    {
+      "id": "NTS-DIS-EBOOK-F",
+      "name": "E-book/Digital Book Cover (Front)",
+      "category": "DESIGN",
+      "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=500&auto=format&fit=crop",
+      "price": 2300.00,
+      "description": "Exclusive design of the front cover of your digital book. Focuses on clean aesthetics supported by good typography and balanced distribution of visual components.",
+      "features": []
+    },
+    {
+      "id": "NTS-DIS-THUMB-ADV",
+      "name": "Advanced / Premium Thumbnail",
+      "category": "DESIGN",
+      "image": "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?q=80&w=500&auto=format&fit=crop",
+      "price": 1700.00,
+      "description": "Detailed design of thumbnails for video platforms. Includes advanced photo retouching, lighting effects, and a graphic style that stands out to improve clicks.",
+      "features": []
+    },
+    {
+      "id": "NTS-ADS-IMG-ADV",
+      "name": "Advanced / Premium Ad Image",
+      "category": "DESIGN (Ads)",
+      "image": "https://images.unsplash.com/photo-1542744094-3a31f103e35f?q=80&w=500&auto=format&fit=crop",
+      "price": 1700.00,
+      "description": "Strategy and advertising image optimized for social media. Features high-quality visual elements and a design aimed at campaign conversion.",
+      "features": []
+    },
+    {
+      "id": "NTS-DIS-MOCKUP",
+      "name": "Mockup Design",
+      "category": "DESIGN",
+      "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=500&auto=format&fit=crop",
+      "price": 1700.00,
+      "description": "Three-dimensional visual representation for your digital or physical products. Used to show how the product looks on screens, packaging, or real devices.",
+      "features": []
+    },
+    {
+      "id": "NTS-TES-BAS",
+      "name": "Testimonial – Basic",
+      "category": "Reviews and testimonials integrated into design",
+      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=500&auto=format&fit=crop",
+      "price": 1500.00,
+      "description": "Basic and clean formatting of customer reviews or texts. Adapts to your brand's style so you can easily publish them on your website or social media.",
+      "features": []
+    },
+    {
+      "id": "NTS-DIS-CARR-BAS",
+      "name": "Basic Carousel Template",
+      "category": "DESIGN",
+      "image": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?q=80&w=500&auto=format&fit=crop",
+      "price": 1400.00,
+      "description": "Base structure for swipeable social media posts. Features simple visual guides so you can organize your content neatly.",
+      "features": []
+    },
+    {
+      "id": "NTS-DIS-THUMB-INT",
+      "name": "Intermediate Thumbnail",
+      "category": "DESIGN",
+      "image": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?q=80&w=500&auto=format&fit=crop",
+      "price": 1000.00,
+      "description": "Cover design for videos with a proper balance of texts and standard photo editing, ideal for keeping an active and organized channel.",
+      "features": []
+    },
+    {
+      "id": "NTS-ADS-IMG-INT",
+      "name": "Intermediate Ad Image",
+      "category": "DESIGN (Ads)",
+      "image": "https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=500&auto=format&fit=crop",
+      "price": 1000.00,
+      "description": "Design of advertising art with clear texts and balanced graphics, ready to be launched in digital commercial guidelines.",
+      "features": []
+    },
+    {
+      "id": "NTS-DIS-IMG-FEAT",
+      "name": "Featured Image",
+      "category": "DESIGN",
+      "image": "https://images.unsplash.com/photo-1561070791-26c113006238?q=80&w=500&auto=format&fit=crop",
+      "price": 1000.00,
+      "description": "Main graphic design to use in the most important sections of your website, blogs, or highlighted press releases.",
+      "features": []
+    },
+    {
+      "id": "NTS-DIS-THUMB-BAS",
+      "name": "Basic Thumbnail",
+      "category": "DESIGN",
+      "image": "https://images.unsplash.com/photo-1557200134-90327ee9fafa?q=80&w=500&auto=format&fit=crop",
+      "price": 600.00,
+      "description": "Basic assembly of covers for multimedia content using legible titles and straightforward backgrounds without complex photo compositions.",
+      "features": []
+    },
+    {
+      "id": "NTS-ADS-IMG-BAS",
+      "name": "Basic Ad Image",
+      "category": "DESIGN (Ads)",
+      "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=500&auto=format&fit=crop",
+      "price": 600.00,
+      "description": "Essential graphic design focused on a clear message for low-budget ads or quick social media campaigns.",
+      "features": []
+    }
+  ]
+}
