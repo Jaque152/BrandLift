@@ -3,7 +3,7 @@ import "../globals.css";
 import ClientBody from "./ClientBody";
 
 export const metadata: Metadata = {
-  title: "Kollective | Creative Digital Agency",
+  title: "Brand Lift | Creative Digital Agency",
   description: "Boost your digital presence with precision and purpose.",
 };
 

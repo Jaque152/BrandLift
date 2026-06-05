@@ -295,7 +295,7 @@ function Footer({ dict, navDict }: FooterProps) {
               <div className="w-10 h-10 rounded-full bg-terracotta-500 flex items-center justify-center">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-cream-100"><path d="M12 2L2 7l10 5 10-5-10-5z" /><path d="M2 17l10 5 10-5" /><path d="M2 12l10 5 10-5" /></svg>
               </div>
-              <span className="text-xl font-serif font-semibold text-cream-100">Kollective<span className="text-terracotta-400">.</span></span>
+              <span className="text-xl font-serif font-semibold text-cream-100">Brand Lift<span className="text-terracotta-400">.</span></span>
             </a>
             <p className="text-cream-400 max-w-md leading-relaxed mb-6">{dict.desc}</p>
           </div>
@@ -323,7 +323,7 @@ function Footer({ dict, navDict }: FooterProps) {
               </li>
               <li className="flex items-center gap-3 text-cream-400">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-terracotta-400 flex-shrink-0"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" /><polyline points="22,6 12,13 2,6" /></svg>
-                <span>hello@kollective.com</span>
+                <span>proyectos@brandlift.com.mx</span>
               </li>
             </ul>
           </div>

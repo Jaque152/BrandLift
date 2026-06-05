@@ -42,7 +42,7 @@ export async function POST(request: NextRequest) {
       subject = `Recibo de Pago Confirmado - Orden ${orderId}`;
       emailContent = `
 ¡Hola ${name}! 
-Hemos recibido tu pago correctamente en Kollective.
+Hemos recibido tu pago correctamente en Brand Lift.
 
 Detalles de la Orden: ${orderId}
 -----------------------------------------
@@ -53,12 +53,12 @@ Total Pagado: $${totalPrice?.toLocaleString()} MXN
 Nuestro equipo se pondrá en contacto contigo en breve para dar inicio al proyecto.
 
 Atentamente,
-El equipo de Kollective
+El equipo de Brand Lift
       `.trim();
     } else {
       subject = `Nueva Solicitud de Cotización de ${name}`;
       emailContent = `
-Nueva Solicitud de Cotización (Kollective)
+Nueva Solicitud de Cotización (Brand Lift)
 
 Información de Contacto:
 - Nombre: ${name}
