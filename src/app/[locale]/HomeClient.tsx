@@ -1,11 +1,11 @@
 "use client";
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link"; // Corregido: Importación correcta de Next.js
 import { Header } from "@/components/Header";
 import { CartSidebar } from "@/components/CartSidebar";
 import { QuoteForm } from "@/components/QuoteForm";
-// 1. ELIMINADO: import { whyChooseUs } ...
-import { useCart, type ServiceItem } from "@/context/CartContext"; // 2. Añadido type ServiceItem
+import { useCart, type ServiceItem } from "@/context/CartContext";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import type { Dictionary } from "@/lib/getDictionary";
@@ -37,10 +37,6 @@ function HeroSection({ onRequestQuote, dict }: HeroSectionProps) {
           <div className="flex flex-wrap gap-4 pt-4">
             <Button onClick={onRequestQuote} className="bg-terracotta-500 hover:bg-terracotta-600 text-cream-50 px-8 py-6 text-base font-medium rounded-full">
               {dict.btnQuote}
-            </Button>
-            <Button variant="outline" className="border-charcoal-400 text-charcoal-700 hover:bg-cream-200 px-8 py-6 text-base rounded-full group" onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}>
-              {dict.btnServices}
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="ml-2 group-hover:translate-x-1 transition-transform"><line x1="7" y1="17" x2="17" y2="7" /><polyline points="7 7 17 7 17 17" /></svg>
             </Button>
           </div>
         </div>
@@ -81,9 +77,10 @@ function HeroSection({ onRequestQuote, dict }: HeroSectionProps) {
 // --- ABOUT SECTION ---
 interface AboutSectionProps {
   dict: Dictionary['about'];
+  lang: string; // Corregido: Agregado lang a las propiedades
 }
 
-function AboutSection({ dict }: AboutSectionProps) {
+function AboutSection({ dict, lang }: AboutSectionProps) {
   return (
     <section id="about" className="py-24 bg-charcoal-900 relative overflow-hidden">
       <div className="absolute inset-0 grain-overlay" />
@@ -110,9 +107,13 @@ function AboutSection({ dict }: AboutSectionProps) {
           <p className="text-cream-300 text-lg leading-relaxed">
             {dict.description}
           </p>
-          <div className="grid grid-cols-2 gap-8 pt-4">
-            <div><h3 className="text-4xl font-serif font-semibold text-terracotta-400">150+</h3><p className="text-cream-400 mt-1">{dict.stats.projects}</p></div>
-            <div><h3 className="text-4xl font-serif font-semibold text-terracotta-400">98%</h3><p className="text-cream-400 mt-1">{dict.stats.satisfaction}</p></div>
+
+          <div className="mt-10">
+            <Link href={`/${lang}/about-us`}>
+              <Button className="bg-terracotta-500 hover:bg-terracotta-600 text-cream-50 px-8 py-6 text-lg rounded-full shadow-lg hover:shadow-xl transition-all">
+                {dict.btn}
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
@@ -129,7 +130,6 @@ interface ServiceCardProps {
 function ServiceCard({ service, texts }: ServiceCardProps) {
   const { addItem } = useCart();
   
-  // 3. FIX: Le decimos a TS que trate las características como un arreglo de strings
   const features = service.features as string[];
 
   return (
@@ -151,7 +151,6 @@ function ServiceCard({ service, texts }: ServiceCardProps) {
         {service.description}
       </p>
 
-      {/* Usamos nuestra variable tipada `features` */}
       {features && features.length > 0 && (
         <ul className="space-y-2 mb-8">
           {features.map((feature) => (
@@ -166,9 +165,8 @@ function ServiceCard({ service, texts }: ServiceCardProps) {
       <div className="flex items-center justify-between pt-4 border-t border-cream-200 mt-auto">
         <div>
           <p className="text-xs text-charcoal-500">{texts.startingFrom}</p>
-          <p className="text-xl font-serif font-semibold text-charcoal-900">${service.price.toLocaleString()}</p>
+          <p className="text-2xl font-bold tracking-tight text-charcoal-900">${service.price.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</p>
         </div>
-        {/* 4. FIX: Asertamos el tipo a ServiceItem de forma segura para TS */}
         <Button onClick={() => addItem(service as unknown as ServiceItem)} className="bg-terracotta-500 hover:bg-terracotta-600 text-cream-50 rounded-full px-5 text-sm">
           {texts.addToCart}
         </Button>
@@ -282,9 +280,10 @@ function CTASection({ onRequestQuote, dict }: CTASectionProps) {
 interface FooterProps {
   dict: Dictionary['footer'];
   navDict: Dictionary['navigation'];
+  lang: string;
 }
 
-function Footer({ dict, navDict }: FooterProps) {
+function Footer({ dict, navDict, lang }: FooterProps) {
   return (
     <footer id="contact" className="bg-charcoal-900 py-20 relative overflow-hidden">
       <div className="absolute inset-0 grain-overlay" />
@@ -319,20 +318,25 @@ function Footer({ dict, navDict }: FooterProps) {
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-cream-400">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="mt-0.5 text-terracotta-400 flex-shrink-0"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" /><circle cx="12" cy="10" r="3" /></svg>
-                <span>Mexico City, CDMX</span>
+                <span>Arquímides No.130, Piso 5, Oficina B, Colonia Polanco V Sección, C.P. 11560, Miguel Hidalgo, CDMX</span>
               </li>
               <li className="flex items-center gap-3 text-cream-400">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-terracotta-400 flex-shrink-0"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" /><polyline points="22,6 12,13 2,6" /></svg>
                 <span>proyectos@brandlift.com.mx</span>
+              </li>
+              <li className="flex items-center gap-3 text-cream-400">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-terracotta-400 flex-shrink-0"><path d="M22 16.92V21a2 2 0 0 1-2.18 2A19.86 19.86 0 0 1 3 5.18 2 2 0 0 1 5 3h4a2 2 0 0 1 2 1.72c.13 1.21.37 2.39.72 3.53a2 2 0 0 1-.45 1.95l-3.11 3.11a16 16 0 0 0 6.53 6.53l3.11-3.11a2 2 0 0 1 1.95-.45c1.14.35 2.32.59 3.53.72A2 2 0 0 1 22,16.92z" /></svg>
+                <span>+52 1 55 4169 5792</span>
               </li>
             </ul>
           </div>
         </div>
         <div className="border-t border-charcoal-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-cream-500 text-sm">{dict.rights}</p>
-          <div className="flex gap-6 text-cream-500 text-sm">
-            <a href="#" className="hover:text-terracotta-400 transition-colors">{dict.terms}</a>
-            <a href="#" className="hover:text-terracotta-400 transition-colors">{dict.privacy}</a>
+          <div className="flex flex-wrap justify-center gap-4 md:gap-6 text-cream-500 text-sm">
+            <Link href={`/${lang}/terms`} className="hover:text-terracotta-400 transition-colors">{dict.terms}</Link>
+            <Link href={`/${lang}/privacy`} className="hover:text-terracotta-400 transition-colors">{dict.privacy}</Link>
+            <Link href={`/${lang}/refunds`} className="hover:text-terracotta-400 transition-colors">{dict.refunds}</Link>
           </div>
         </div>
       </div>
@@ -360,7 +364,8 @@ export default function HomeClient({ dict, lang }: HomeClientProps) {
       <main className="relative">
         <HeroSection dict={dict.hero} onRequestQuote={handleRequestQuote} />
         
-        <AboutSection dict={dict.about} />
+        {/* Corregido: Se pasa la propiedad lang */}
+        <AboutSection dict={dict.about} lang={lang} />
         
         <ServicesSection 
           onRequestQuote={handleRequestQuote} 
@@ -373,7 +378,7 @@ export default function HomeClient({ dict, lang }: HomeClientProps) {
         <CTASection onRequestQuote={handleRequestQuote} dict={dict.cta} />
       </main>
       
-      <Footer dict={dict.footer} navDict={dict.navigation} />
+      <Footer dict={dict.footer} lang={lang} navDict={dict.navigation} />
     </>
   );
 }

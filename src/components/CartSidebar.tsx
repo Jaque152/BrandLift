@@ -18,7 +18,8 @@ interface CartSidebarProps {
 }
 
 export function CartSidebar({ dict, quoteDict, lang }: CartSidebarProps) {
-  const { items, isOpen, closeCart, removeItem, updateQuantity, totalPrice, clearCart } = useCart();
+  // 1. AHORA IMPORTAMOS LOS NUEVOS CÁLCULOS DEL CONTEXTO
+  const { items, isOpen, closeCart, removeItem, updateQuantity, subtotal, ivaAmount, totalWithIva, clearCart } = useCart();
   const [isQuoteFormOpen, setIsQuoteFormOpen] = useState(false);
   const pathname = usePathname();
 
@@ -47,7 +48,11 @@ export function CartSidebar({ dict, quoteDict, lang }: CartSidebarProps) {
               </div>
               <h3 className="text-xl font-serif text-charcoal-700 mb-2">{dict.emptyTitle}</h3>
               <p className="text-charcoal-500 text-sm max-w-xs">{dict.emptyDesc}</p>
-              <Button onClick={closeCart} className="mt-6 bg-terracotta-500 hover:bg-terracotta-600 text-cream-50">{dict.btnBrowse}</Button>
+              <Link href={`/${lang}`} onClick={closeCart} className="mt-6 block">
+                <Button className="bg-terracotta-500 hover:bg-terracotta-600 text-cream-50 px-8">
+                  {dict.btnBrowse}
+                </Button>
+              </Link>
             </div>
           ) : (
             <div className="flex flex-col h-[calc(100vh-120px)]">
@@ -56,7 +61,6 @@ export function CartSidebar({ dict, quoteDict, lang }: CartSidebarProps) {
                   {items.map((item) => (
                     <div key={item.id} className="bg-cream-100 rounded-xl p-4 border border-cream-300 group hover:border-terracotta-300 transition-colors">
                       <div className="flex justify-between items-start mb-3 gap-3">
-                        {/* Aquí agregamos la imagen en miniatura */}
                         {item.image && (
                           <div className="relative w-16 h-16 rounded-lg overflow-hidden flex-shrink-0 border border-cream-200">
                             <Image src={item.image} alt={item.name} fill className="object-cover" />
@@ -80,21 +84,35 @@ export function CartSidebar({ dict, quoteDict, lang }: CartSidebarProps) {
                             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><line x1="12" y1="5" x2="12" y2="19" /><line x1="5" y1="12" x2="19" y2="12" /></svg>
                           </button>
                         </div>
-                        <span className="font-serif text-xl text-charcoal-900">${(item.price * item.quantity).toLocaleString()}</span>
+                        <span className="text-lg font-bold text-charcoal-900">${(item.price * item.quantity).toLocaleString()}</span>
                       </div>
                     </div>
                   ))}
                 </div>
               </ScrollArea>
 
-              <div className="pt-6 space-y-4 border-t border-cream-300 mt-4">
-                <div className="flex justify-between items-center">
-                  <span className="text-lg font-medium text-charcoal-900">{dict.total}</span>
-                  <span className="font-serif text-2xl text-terracotta-500">${totalPrice.toLocaleString()}</span>
+              <div className="pt-6 space-y-3 border-t border-cream-300 mt-4">
+                {/* 2. MOSTRAMOS EL DESGLOSE DE SUBTOTAL E IVA */}
+                <div className="flex justify-between items-center text-charcoal-600 text-sm">
+                  <span>{dict.subtotal}</span>
+                  <span>${subtotal.toLocaleString()}</span>
                 </div>
-                <div className="grid gap-3 pt-2">
-                  <Link href={`/${lang}/checkout`} onClick={closeCart}>
-                    <Button className="w-full bg-terracotta-500 hover:bg-terracotta-600 text-cream-50 py-6 text-base font-medium">{dict.btnCheckout}</Button>
+                <div className="flex justify-between items-center text-charcoal-600 text-sm">
+                  <span>{dict.iva}</span>
+                  <span>${ivaAmount.toLocaleString()}</span>
+                </div>
+                
+                <div className="flex justify-between items-center pt-2 border-t border-cream-200">
+                  <span className="text-lg font-medium text-charcoal-900">{dict.total}</span>
+                  <span className="text-2xl font-bold tracking-tight text-terracotta-500">${totalWithIva.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</span>
+                </div>
+                
+                <div className="grid gap-3 pt-4">
+                  {/* 3. CAMBIAMOS LA RUTA A /cart EN LUGAR DE /checkout */}
+                  <Link href={`/${lang}/cart`} onClick={closeCart}>
+                    <Button className="w-full bg-terracotta-500 hover:bg-terracotta-600 text-cream-50 py-6 text-base font-medium">
+                      {dict.btnViewCart}
+                    </Button>
                   </Link>
                   <Button onClick={handleRequestQuote} variant="outline" className="w-full border-charcoal-300 text-charcoal-600 hover:bg-cream-200">{dict.btnQuote}</Button>
                   <Button variant="ghost" onClick={clearCart} className="w-full text-charcoal-500 hover:text-terracotta-500">{dict.btnClear}</Button>

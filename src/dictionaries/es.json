@@ -11,8 +11,7 @@
     "title1": "Soluciones",
     "title2": "Creativas",
     "description": "Impulsa tu presencia digital con precisión y propósito. En Brand Lift, creamos experiencias visuales que inspiran, conectan y transforman marcas en historias duraderas.",
-    "btnQuote": "Solicitar Cotización",
-    "btnServices": "Explorar Servicios"
+    "btnQuote": "Solicitar Cotización"
   },
   "about": {
     "title1": "Explora el universo del",
@@ -36,19 +35,343 @@
     "contact": "Contáctanos",
     "rights": "© 2026 Brand Lift. Todos los derechos reservados.",
     "terms": "Términos y Condiciones",
-    "privacy": "Aviso de Privacidad"
+    "privacy": "Aviso de Privacidad",
+    "refunds": "Política de Reembolsos y Cancelaciones"
   },
-  "cart": {
-    "title": "Tu Carrito",
-    "item": "artículo",
-    "items": "artículos",
-    "emptyTitle": "Tu carrito está vacío",
-    "emptyDesc": "Explora nuestros servicios y agrega los que se adapten a tus necesidades.",
-    "btnBrowse": "Explorar Servicios",
-    "total": "Total",
-    "btnCheckout": "Proceder al Pago",
-    "btnQuote": "Solicitar Cotización",
-    "btnClear": "Vaciar Carrito"
+  "legal": {
+    "terms": {
+      "title": "TÉRMINOS Y CONDICIONES",
+      "company": "NTS PUBLICIDAD, S.A. DE C.V.",
+      "intro": "El presente documento establece los Términos y Condiciones que rigen el acceso, uso y contratación de los servicios ofrecidos por NTS PUBLICIDAD, S.A. DE C.V. (en adelante, “Brand lift” o “la Empresa”) a través de su sitio web y otros medios digitales oficiales. El uso del sitio, la navegación en cualquiera de sus secciones o la contratación de servicios implica la aceptación expresa, plena y sin reservas de estos términos.",
+      "sections": [
+        {
+          "title": "CAPACIDAD Y ACEPTACIÓN",
+          "content": [
+            "El usuario declara que es mayor de edad y cuenta con capacidad jurídica plena para celebrar contratos y asumir obligaciones conforme a la legislación mexicana.",
+            "En caso de actuar en nombre y representación de una persona moral, el usuario manifiesta bajo protesta de decir verdad que posee las facultades legales suficientes para obligar válidamente a dicha entidad en los términos del presente documento.",
+            "El acceso y uso de los servicios ofrecidos por Brand lift supone la aceptación expresa y voluntaria de los presentes Términos y Condiciones, del Aviso de Privacidad vigente y de cualquier otro documento o política complementaria publicada en los canales oficiales de la Empresa.",
+            "En caso de no estar de acuerdo con alguna de las disposiciones aquí contenidas, el usuario deberá abstenerse de utilizar el sitio o contratar los servicios."
+          ]
+        },
+        {
+          "title": "SERVICIOS OFRECIDOS",
+          "content": [
+            "Brand lift se dedica a la prestación de servicios profesionales de diseño gráfico, publicidad digital, desarrollo de identidad visual, animación, packaging, fotografía y producción de contenido digital para redes sociales, plataformas web y otros medios audiovisuales.",
+            "Los servicios podrán ofrecerse bajo proyectos integrales o por paquete, con alcance, tiempos y entregables definidos previamente. Cada servicio cuenta con una descripción específica, en la que se detallan sus características, alcances, tiempos estimados de entrega y materiales requeridos por parte del cliente para iniciar el proyecto.",
+            "Brand lift se reserva el derecho de actualizar, modificar o descontinuar cualquiera de sus servicios, sin afectar los compromisos ya contratados o en curso."
+          ]
+        },
+        {
+          "title": "CONTRATACIÓN Y PAGO",
+          "content": [
+            "La contratación de los servicios se considerará formalizada una vez que el cliente reciba una confirmación escrita o correo electrónico de aceptación del pedido o propuesta comercial, emitida por Brand lift.",
+            "Todos los pagos deberán realizarse a través de las pasarelas de pago electrónicas habilitadas en el sitio web o mediante los métodos previamente autorizados por la Empresa. El pago constituye una manifestación expresa de conformidad con los alcances, costos, tiempos y condiciones pactadas.",
+            "Los precios publicados se expresan en pesos mexicanos (MXN) e incluyen el Impuesto al Valor Agregado (IVA), salvo que se indique lo contrario. Brand lift se reserva el derecho de actualizar o modificar sus tarifas en cualquier momento, respetando siempre los acuerdos previamente confirmados con sus clientes.",
+            "En caso de retrasos o incumplimiento en los pagos por parte del cliente, Brand lift podrá suspender temporalmente la prestación de los servicios hasta que se regularice la situación, sin que ello genere responsabilidad alguna para la Empresa."
+          ]
+        },
+        {
+          "title": "OBLIGACIONES DEL CLIENTE",
+          "content": [
+            "El cliente reconoce y acepta que el adecuado desarrollo del proyecto contratado depende en gran medida de la colaboración, comunicación oportuna y entrega de información completa y veraz por su parte. En este sentido, se obliga a:",
+            "• Proporcionar toda la información y materiales necesarios para la correcta ejecución del servicio, incluyendo pero sin limitarse a: especificaciones técnicas, objetivos del proyecto, briefings, logotipos, textos, fotografías, accesos a plataformas digitales, manuales de marca, referencias visuales y cualquier otro elemento solicitado por Brand lift.",
+            "• Revisar y aprobar oportunamente las propuestas, avances o entregas parciales que le sean presentadas, otorgando retroalimentación clara, específica y dentro de los plazos establecidos en el cronograma del proyecto.",
+            "• Cumplir en tiempo con las obligaciones de comunicación, aprobación y entrega de materiales, reconociendo que cualquier retraso atribuible al cliente podrá pausar los plazos originalmente acordados sin que ello implique incumplimiento por parte de Brand lift.",
+            "• Garantizar la legitimidad y licitud de los contenidos, materiales o información proporcionada, declarando que posee todos los derechos, licencias o autorizaciones necesarias para su uso, reproducción y publicación.",
+            "En caso de que los materiales entregados por el cliente infrinjan derechos de propiedad intelectual, de imagen o de cualquier otra índole pertenecientes a terceros, el cliente asumirá toda la responsabilidad legal y económica, liberando expresamente a NTS PUBLICIDAD, S.A. DE C.V. de cualquier reclamación, daño o perjuicio derivado del uso de dichos elementos."
+          ]
+        },
+        {
+          "title": "PROCESO CREATIVO Y REVISIONES",
+          "content": [
+            "Brand lift desarrolla todos sus proyectos mediante una metodología creativa estructurada, que contempla etapas de planeación, conceptualización, diseño, ejecución y validación con el cliente. Durante este proceso:",
+            "• Se realizarán entregas parciales o “checkpoints” creativos para la revisión y aprobación del cliente antes de avanzar a la siguiente etapa.",
+            "• El número de revisiones o ajustes incluidos dependerá del tipo de servicio contratado y estará indicado en la propuesta o cotización correspondiente.",
+            "• Cualquier revisión adicional o solicitud de modificación que exceda los ajustes originalmente contemplados podrá generar un cargo adicional, previo aviso y autorización del cliente.",
+            "Para efectos de claridad, se entenderá por “revisión” cualquier ajuste razonable sobre el trabajo entregado, como correcciones de texto, cambios menores de color, proporción, alineación o formato.",
+            "En cambio, se considerarán cambios sustanciales —y, por tanto, no incluidos en el paquete original— aquellos que impliquen una nueva dirección creativa, sustitución de concepto, rediseño integral o inclusión de elementos no contemplados en la propuesta inicial. Dichas modificaciones se cotizarán y calendarizarán como un nuevo proyecto o fase adicional."
+          ]
+        },
+        {
+          "title": "ENTREGABLES Y FORMATOS",
+          "content": [
+            "Los productos finales generados por Brand lift se entregarán en formatos digitales estándar adecuados a la naturaleza del servicio contratado (por ejemplo, JPG, PNG, MP4, GIF, PDF u otros previamente acordados).",
+            "Salvo que se haya estipulado expresamente en la cotización o contrato, los archivos fuente editables —tales como PSD, AI, AEP, INDD u otros formatos de software profesional— no se incluyen por defecto y podrán ser entregados únicamente previa solicitud expresa del cliente, con un cargo adicional determinado según el alcance del proyecto y el valor del trabajo intelectual involucrado.",
+            "Las entregas se realizarán mediante plataformas digitales seguras, tales como correo electrónico, enlaces de descarga, nube privada o servicios como WeTransfer, Google Drive o Dropbox.",
+            "Una vez entregados los archivos, el cliente asume la responsabilidad total de su descarga, almacenamiento y respaldo, reconociendo que Brand lift no está obligada a conservar copias o respaldos indefinidos de los materiales una vez concluido el proyecto.",
+            "Cualquier solicitud de reenvío o recuperación de archivos después de la finalización del proyecto podrá implicar un costo adicional por gestión o búsqueda en respaldo."
+          ]
+        },
+        {
+          "title": "DERECHOS DE PROPIEDAD INTELECTUAL",
+          "content": [
+            "NTS PUBLICIDAD, S.A. DE C.V. conserva todos los derechos de propiedad intelectual, industrial y moral sobre los contenidos, diseños, metodologías y materiales desarrollados en el marco de sus servicios, salvo aquellos derechos de uso que sean expresamente cedidos al cliente conforme a lo establecido a continuación.",
+            "Una vez que el cliente realice el pago total y definitivo del servicio contratado, Brand lift le otorgará una licencia de uso no exclusiva, transferible y de alcance comercial sobre los entregables finales producidos (piezas gráficas, videos, campañas, logotipos, empaques u otros materiales), con el único propósito de que el cliente pueda utilizarlos o explotarlos en su propio negocio, marca o proyecto.",
+            "Dicha cesión de uso no implica transferencia de propiedad intelectual sobre los elementos conceptuales, metodológicos o técnicos empleados en la creación de las piezas. En este sentido, Brand lift conserva:",
+            "• Los derechos morales de autoría, incluyendo el reconocimiento de su calidad de creador y la integridad de las obras desarrolladas.",
+            "• El derecho de exhibir los proyectos realizados en su portafolio profesional, sitio web, redes sociales, materiales de promoción o presentaciones corporativas, con el único fin de mostrar su experiencia y capacidades técnicas, sin que ello implique divulgar información sensible o confidencial del cliente.",
+            "• La propiedad exclusiva de sus metodologías de trabajo, procesos creativos, plantillas base, herramientas técnicas, software propio y del conjunto de signos distintivos que conforman la marca “Brand lift”.",
+            "Cualquier reproducción, distribución o uso distinto al autorizado requerirá consentimiento previo y por escrito de NTS PUBLICIDAD, S.A. DE C.V."
+          ]
+        },
+        {
+          "title": "RESPONSABILIDADES Y LIMITACIONES",
+          "content": [
+            "El cliente reconoce que la naturaleza del servicio contratado es creativa y consultiva, y que Brand lift actúa como proveedor de soluciones visuales, gráficas y publicitarias conforme al briefing, objetivos y materiales proporcionados por el propio cliente.",
+            "Si bien la Empresa se compromete a entregar productos de la más alta calidad profesional y técnica, no puede garantizar resultados comerciales específicos, tales como incremento en ventas, conversiones, alcance, viralidad, crecimiento de audiencia o posicionamiento en plataformas digitales, ya que dichos resultados dependen de factores externos que escapan a su control (mercado, algoritmos, estrategias de difusión, presupuesto publicitario, etc.).",
+            "Asimismo, Brand lift no será responsable por:",
+            "• El uso, modificación o publicación que el cliente haga de las piezas una vez entregadas;",
+            "• Las decisiones estratégicas, financieras o de marketing que adopte el cliente basándose en los materiales creados;",
+            "• Cambios en políticas, términos de servicio o lineamientos de plataformas digitales (Meta, Google, TikTok, etc.) que afecten la visibilidad, aceptación o publicación del contenido; ni",
+            "• Pérdidas indirectas, lucro cesante, daños consecuenciales o perjuicios derivados del uso o imposibilidad de uso de los entregables.",
+            "En cualquier caso, la responsabilidad máxima de Brand lift frente al cliente estará limitada al monto total efectivamente pagado por el servicio específico que haya originado la reclamación, sin que procedan compensaciones adicionales o indemnizaciones por daños."
+          ]
+        },
+        {
+          "title": "CONFIDENCIALIDAD",
+          "content": [
+            "Durante la ejecución de los servicios, el cliente podrá compartir con Brand lift información sensible o estratégica relativa a su negocio, marca o proyectos (por ejemplo: estrategias comerciales, datos financieros, planes de lanzamiento, bases de clientes, entre otros).",
+            "Brand lift se compromete a mantener dicha información bajo estricta confidencialidad, utilizándola únicamente para los fines del proyecto contratado y absteniéndose de divulgarla a terceros, salvo cuando sea estrictamente necesario para la ejecución del servicio y siempre bajo acuerdos de confidencialidad con los colaboradores externos que intervengan en el proceso creativo.",
+            "Esta obligación permanecerá vigente incluso después de la conclusión del proyecto y por un plazo razonable conforme a los usos comerciales del sector."
+          ]
+        },
+        {
+          "title": "CAUSAS DE SUSPENSIÓN",
+          "content": [
+            "Brand lift podrá suspender temporalmente o dar por terminada la prestación del servicio, sin responsabilidad alguna, en cualquiera de los siguientes supuestos:",
+            "• Incumplimiento en el pago de los honorarios o cualquier cantidad pactada;",
+            "• Falta reiterada de entrega de materiales o información esencial por parte del cliente que impida el avance del proyecto;",
+            "• Provisión de información falsa o engañosa que afecte la ejecución del trabajo;",
+            "• Uso de los servicios o materiales para fines ilícitos, difamatorios, inmorales o contrarios al orden público;",
+            "• Conductas irrespetuosas, agresivas o difamatorias hacia el personal, colaboradores o representantes de Brand lift; o",
+            "• Cualquier otro incumplimiento sustancial de las obligaciones asumidas en los presentes Términos y Condiciones.",
+            "En caso de suspensión o terminación anticipada, el cliente deberá cubrir los costos generados hasta la fecha de terminación, incluyendo horas efectivamente trabajadas, avances parciales y gastos operativos incurridos."
+          ]
+        },
+        {
+          "title": "FUERZA MAYOR",
+          "content": [
+            "No seremos responsables por incumplimientos causados por circunstancias fuera de nuestro control: desastres naturales, fallas tecnológicas masivas, conflictos sociales, pandemias, cambios regulatorios súbitos, o suspensión de servicios de terceros de los que dependamos."
+          ]
+        },
+        {
+          "title": "LEGISLACIÓN APLICABLE",
+          "content": [
+            "Estos términos se rigen por las leyes mexicanas. Cualquier controversia se resolverá ante los tribunales competentes de la Ciudad de México."
+          ]
+        },
+        {
+          "title": "COMUNICACIONES",
+          "content": [
+            "Todas las notificaciones oficiales se envían al correo electrónico registrado durante la contratación. Mantenerlo actualizado es tu responsabilidad."
+          ]
+        },
+        {
+          "title": "MODIFICACIONES",
+          "content": [
+            "Podemos actualizar estos términos ocasionalmente. Las modificaciones aplican para servicios contratados posteriormente. Proyectos en curso se rigen por los términos vigentes al momento de la contratación."
+          ]
+        }
+      ],
+      "footer": "Contacto: proyectos@brandlift.com.mx\nÚltima actualización: Junio 2026"
+    },
+    "privacy": {
+      "title": "AVISO DE PRIVACIDAD",
+      "company": "NTS PUBLICIDAD, S.A. DE C.V.",
+      "intro": "En atención a lo dispuesto por la Ley Federal de Protección de Datos Personales en Posesión de los Particulares, su Reglamento y demás disposiciones aplicables en la Ciudad de México, NTS PUBLICIDAD, S.A. DE C.V. (en adelante, “Brand lift” o “la Empresa”), hace del conocimiento del público en general y de sus clientes, proveedores, colaboradores y usuarios, el presente Aviso de Privacidad, a través del cual se informa la forma en que se recaban, utilizan, almacenan y protegen los datos personales que se obtengan con motivo de las relaciones comerciales, contractuales o de cualquier otra índole que se establezcan con la Empresa.",
+      "sections": [
+        {
+          "title": "IDENTIDAD Y DOMICILIO DEL RESPONSABLE",
+          "content": [
+            "NTS PUBLICIDAD, S.A. DE C.V. es una sociedad anónima de capital variable debidamente constituida conforme a las leyes de los Estados Unidos Mexicanos, cuyo objeto social principal consiste en la prestación de servicios integrales de publicidad, comunicación estratégica, diseño digital y producción de materiales audiovisuales, entre otros servicios relacionados con la mercadotecnia y la gestión de imagen corporativa.",
+            "Para cualquier asunto relacionado con la protección de sus datos personales, podrá comunicarse con nuestro Encargado de Privacidad a través de los siguientes medios de contacto:",
+            "• Correo electrónico: proyectos@brandlift.com.mx",
+            "• Domicilio: ARQUÍMIDES 130 PISO 5 OFICINA B COLONIA POLANCO V SECCIÓN CP 11560 MIGUEL HIDALGO CIUDAD DE MÉXICO",
+            "• Sitio web: brandlift.com.mx"
+          ]
+        },
+        {
+          "title": "DATOS QUE RECABAMOS",
+          "content": [
+            "Al utilizar nuestro sitio web o contratar nuestros servicios de publicidad digital, diseño gráfico y packaging digital, recabamos información necesaria para operar comercialmente:",
+            "• Información de contacto comercial: nombre o denominación social, correo electrónico, información de la empresa o proyecto que representas.",
+            "• Información transaccional: datos necesarios para procesar pagos y emitir comprobantes fiscales conforme a la legislación mexicana.",
+            "• Información del proyecto: especificaciones técnicas, materiales proporcionados (imágenes, textos, logotipos), briefing creativo, preferencias de diseño.",
+            "• Datos de navegación: información técnica que tu navegador envía automáticamente cuando visitas nuestro sitio, incluyendo dirección IP, tipo de dispositivo, páginas consultadas y tiempo de navegación."
+          ]
+        },
+        {
+          "title": "FINALIDADES DEL TRATAMIENTO",
+          "content": [
+            "La información personal que Brand lift recaba será utilizada de manera responsable, confidencial y conforme a los principios de licitud, consentimiento, información, calidad, finalidad, lealtad, proporcionalidad y responsabilidad previstos en la legislación aplicable.",
+            "Dicha información se empleará para cumplir con las siguientes finalidades primarias y secundarias:",
+            "a) Finalidades Primarias (necesarias para la relación jurídica):",
+            "• Operación y ejecución de servicios: Procesar solicitudes, elaborar cotizaciones, celebrar contratos, planificar y desarrollar estrategias publicitarias, prestar los servicios de diseño, producción y marketing digital contratados, comunicar avances de proyectos, realizar entregas de materiales o archivos finales y dar seguimiento a la correcta ejecución de los servicios pactados.",
+            "• Gestión administrativa y cumplimiento de obligaciones legales y fiscales: Emitir comprobantes fiscales digitales, atender requerimientos del Servicio de Administración Tributaria (SAT) y demás autoridades competentes, así como llevar registros contables, administrativos y contractuales necesarios para la operación de la empresa.",
+            "• Atención al cliente: Contactar a los usuarios y clientes para resolver dudas, atender solicitudes de soporte, reclamaciones o aclaraciones, y asegurar la satisfacción con los servicios proporcionados.",
+            "b) Finalidades Secundarias (de mejora y comunicación):",
+            "• Optimización y desarrollo de servicios: Analizar patrones de comportamiento y uso del sitio web, identificar tendencias de consumo, evaluar niveles de satisfacción, mejorar la experiencia del usuario, e impulsar la innovación y eficiencia en nuestros procesos creativos y operativos.",
+            "• Comunicación comercial y mercadotecnia: Enviar información sobre nuevos servicios, promociones, campañas, eventos, colaboraciones o materiales de interés relacionados con las actividades de Brand lift, siempre en el marco de una comunicación respetuosa, no invasiva y alineada con los intereses del titular.",
+            "• Relación institucional y reputacional: Difundir materiales corporativos o portafolios de proyectos en los que se haya participado, cuando medie consentimiento previo del titular, con fines de promoción, posicionamiento o referencia profesional.",
+            "El titular de los datos personales podrá manifestar su negativa al tratamiento de sus datos para finalidades secundarias, como las relacionadas con comunicaciones comerciales o promocionales, sin que ello afecte la continuidad o calidad del servicio principal contratado."
+          ]
+        },
+        {
+          "title": "COMPARTIR INFORMACIÓN",
+          "content": [
+            "Brand lift podrá compartir, transferir o permitir el acceso a determinados datos personales únicamente cuando ello resulte estrictamente necesario para cumplir con las finalidades establecidas en el presente Aviso de Privacidad, o cuando así lo exija una disposición legal o una autoridad competente.",
+            "Dicha comunicación de datos se realizará bajo los más altos estándares de confidencialidad, seguridad y control, observando en todo momento lo dispuesto por la Ley Federal de Protección de Datos Personales en Posesión de los Particulares, su Reglamento y los Lineamientos del Aviso de Privacidad emitidos por el Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales (INAI).",
+            "Los datos personales podrán ser compartidos únicamente en los siguientes supuestos:",
+            "a) Proveedores de servicios tecnológicos y de soporte operativo: Empresas encargadas de proveer servicios de alojamiento web (hosting), servidores, plataformas digitales, procesamiento de pagos, sistemas de gestión de clientes (CRM), correo electrónico, herramientas de diseño o edición en la nube, así como otras soluciones tecnológicas necesarias para la adecuada operación de los servicios ofrecidos por Brand lift.",
+            "b) Colaboradores externos y aliados profesionales: Terceros involucrados en la ejecución directa de proyectos contratados, tales como ilustradores, programadores, fotógrafos, diseñadores, editores, community managers, estrategas digitales y demás especialistas que intervengan en la prestación de los servicios de publicidad o comunicación visual. Dichos colaboradores únicamente recibirán la información indispensable para el desarrollo de sus actividades, quedando sujetos a obligaciones contractuales de confidencialidad y protección de datos personales.",
+            "c) Autoridades competentes: Dependencias gubernamentales, entidades administrativas o judiciales que soliciten información en ejercicio de sus facultades legales o por la existencia de un mandato judicial o requerimiento debidamente fundado y motivado.",
+            "En todos los casos, Brand lift adoptará las medidas legales, técnicas y administrativas necesarias para garantizar que cualquier tercero que tenga acceso a los datos personales mantenga su confidencialidad, los utilice únicamente para los fines autorizados y los elimine o devuelva una vez concluida la relación que motivó su tratamiento."
+          ]
+        },
+        {
+          "title": "TUS DERECHOS",
+          "content": [
+            "En cumplimiento de la legislación vigente en materia de protección de datos personales, Brand lift garantiza a todos los titulares el pleno ejercicio de sus Derechos de Acceso, Rectificación, Cancelación y Oposición (ARCO), así como la posibilidad de revocar en cualquier momento el consentimiento previamente otorgado para el tratamiento de su información personal.",
+            "Estos derechos permiten al titular:",
+            "• Acceso: Conocer en todo momento qué datos personales conserva Brand lift, el origen de los mismos, las finalidades del tratamiento y las condiciones bajo las cuales son utilizados o compartidos.",
+            "• Rectificación: Solicitar la corrección o actualización de sus datos personales cuando resulten inexactos, incompletos o desactualizados.",
+            "• Cancelación: Solicitar la eliminación de sus datos personales de los registros o bases de datos cuando considere que no están siendo utilizados conforme a los principios y deberes legales aplicables, o bien, cuando haya concluido la relación jurídica con la Empresa.",
+            "• Oposición: Manifestar su negativa al uso o tratamiento de sus datos para fines específicos, siempre que exista una causa legítima que lo justifique.",
+            "De igual manera, el titular podrá revocar su consentimiento para el tratamiento de sus datos personales en cualquier momento, sin efectos retroactivos, conforme a lo previsto en el artículo 8 de la Ley Federal de Protección de Datos Personales en Posesión de los Particulares.",
+            "Procedimiento para el ejercicio de derechos:",
+            "El ejercicio de cualquiera de estos derechos deberá realizarse mediante una solicitud por escrito enviada al medio de contacto indicado en la sección de Responsable del Tratamiento, incluyendo, como mínimo, la siguiente información:",
+            "1. Nombre completo del titular y, en su caso, de su representante legal;",
+            "2. Medio para recibir la respuesta (correo electrónico o domicilio físico);",
+            "3. Copia simple de una identificación oficial vigente o documento que acredite la representación legal del solicitante;",
+            "4. Descripción clara y precisa del derecho que desea ejercer y los datos personales sobre los cuales solicita ejercerlo; y",
+            "5. Documentos o evidencia adicional, en caso de ser necesaria para identificar la información objeto del ejercicio de derechos.",
+            "Brand lift acusará recibo de la solicitud y dará respuesta al titular en un plazo máximo de veinte (20) días hábiles contados a partir de la recepción completa de la documentación correspondiente. En caso de resultar procedente, la ejecución de la medida solicitada se efectuará dentro de los quince (15) días hábiles siguientes a la fecha en que se comunique la respuesta favorable.",
+            "Si la solicitud resulta incompleta o contiene errores, la Empresa podrá requerir al titular la información adicional necesaria dentro de los cinco (5) días hábiles posteriores a la recepción de la solicitud, contándose los plazos nuevamente a partir de que el titular subsane los requerimientos."
+          ]
+        },
+        {
+          "title": "SEGURIDAD",
+          "content": [
+            "NTS PUBLICIDAD, S.A. DE C.V. reconoce la importancia de resguardar la información personal que le es confiada, por lo que ha implementado medidas de seguridad administrativas, técnicas y físicas orientadas a prevenir el daño, pérdida, alteración, destrucción o uso indebido de los datos personales, así como su acceso, divulgación o tratamiento no autorizado.",
+            "Estas medidas se aplican conforme a los estándares y mejores prácticas del sector, y son proporcionales al tipo de datos tratados, al nivel de riesgo y a la naturaleza de las operaciones que la Empresa realiza. Entre dichas acciones se incluyen, de manera enunciativa más no limitativa:",
+            "• Controles administrativos internos que restringen el acceso a los datos personales únicamente al personal autorizado, quienes están obligados por compromisos contractuales de confidencialidad y protección de la información.",
+            "• Protocolos tecnológicos de seguridad, tales como encriptación de datos, contraseñas seguras, firewalls, respaldos periódicos, sistemas antivirus y monitoreo constante de servidores y redes informáticas.",
+            "• Medidas físicas de resguardo, que contemplan el almacenamiento seguro de expedientes, archivos y equipos, así como el control de ingreso a las instalaciones donde se gestionan datos personales.",
+            "• Capacitación continua del personal respecto al manejo responsable de información confidencial y a la observancia de la normativa aplicable en materia de protección de datos.",
+            "Asimismo, Brand lift conservará los datos personales únicamente durante el tiempo que sea necesario para cumplir con las finalidades del tratamiento, las obligaciones contractuales y las disposiciones legales o regulatorias que resulten aplicables. Una vez que dichos plazos concluyan, la información será bloqueada y posteriormente eliminada de manera segura, conforme a los procedimientos internos establecidos por la Empresa.",
+            "Brand lift mantiene un compromiso permanente con la mejora de sus políticas de seguridad, revisándolas y actualizándolas de forma periódica con el objetivo de garantizar la integridad, disponibilidad y confidencialidad de la información personal de todos sus titulares."
+          ]
+        },
+        {
+          "title": "COOKIES",
+          "content": [
+            "Este sitio utiliza cookies y tecnologías similares para mejorar tu experiencia de navegación y analizar el uso del sitio. Puedes configurar tu navegador para rechazar cookies, aunque esto puede limitar algunas funcionalidades."
+          ]
+        },
+        {
+          "title": "ACTUALIZACIONES",
+          "content": [
+            "Este aviso puede modificarse. La versión actualizada siempre estará disponible en nuestro sitio web con la fecha de última revisión."
+          ]
+        }
+      ],
+      "footer": "Última actualización: Junio 2026"
+    },
+    "refunds": {
+      "title": "POLÍTICA DE REEMBOLSOS Y CANCELACIONES",
+      "company": "NTS PUBLICIDAD, S.A. DE C.V.",
+      "intro": "Esta política regula las condiciones bajo las cuales pueden cancelarse servicios de diseño y publicidad digital contratados a través de nuestro sitio web.",
+      "sections": [
+        {
+          "title": "NATURALEZA DE LOS SERVICIOS CREATIVOS",
+          "content": [
+            "Los servicios que ofrece NTS PUBLICIDAD, S.A. DE C.V. son de naturaleza creativa y personalizada, lo que implica la dedicación inmediata de recursos humanos, técnicos y conceptuales especializados desde el momento en que se inicia la planeación o el desarrollo de un proyecto.",
+            "Cada servicio contratado requiere inversión de tiempo profesional y esfuerzo intelectual que, por su propia naturaleza, no es recuperable una vez iniciado el proceso creativo, aun cuando no se haya entregado el resultado final."
+          ]
+        },
+        {
+          "title": "MOMENTO DE LA CANCELACIÓN",
+          "content": [
+            "a) Cancelación previa al inicio formal del proyecto\nSi el cliente solicita la cancelación antes de que inicie cualquier trabajo creativo —es decir, antes de haber entregado el briefing completo, realizado la reunión de arranque o recibido el primer avance—, podrá solicitar un reembolso únicamente dentro de las primeras 24 horas posteriores a la confirmación del pedido. Transcurrido dicho plazo, se considerará que el proyecto ha iniciado y no procederá reembolso alguno.",
+            "b) Cancelación después de iniciado el trabajo\nCuando el proyecto ya haya avanzado a etapas como: recepción de briefing, desarrollo de propuestas gráficas, redacción de textos, edición audiovisual o entrega de avances, no se otorgarán reembolsos, ya que los recursos y horas profesionales ya fueron destinados.",
+            "c) Servicios por hora\nEn los servicios facturados por tiempo efectivamente trabajado, el cliente solo cubrirá las horas registradas y documentadas hasta el momento de solicitar la cancelación. Las horas ya laboradas no serán sujetas de reembolso bajo ningún motivo."
+          ]
+        },
+        {
+          "title": "EVALUACIÓN INDIVIDUALIZADA",
+          "content": [
+            "Cada solicitud de cancelación se analiza de manera caso por caso, considerando factores como: la etapa en la que se encuentra el proyecto al momento de la solicitud; el trabajo creativo ya realizado o entregado; los recursos técnicos, humanos o financieros comprometidos; la causa específica que motiva la cancelación; y el historial de cumplimiento y comunicación del cliente.",
+            "Con base en estos criterios, Brand lift determinará si procede un reembolso parcial o total."
+          ]
+        },
+        {
+          "title": "CANCELACIÓN POR INACTIVIDAD DEL CLIENTE",
+          "content": [
+            "Si, tras varios intentos razonables de contacto, el cliente no proporciona la información, materiales o retroalimentación necesarios para continuar con el proyecto dentro de un plazo prudente (15 días naturales salvo acuerdo distinto), Brand lift podrá dar por concluido el proyecto sin obligación de reembolso ni compensación.",
+            "En estos casos, el trabajo realizado hasta la fecha se considerará como entregado o finalizado, independientemente de su nivel de avance."
+          ]
+        },
+        {
+          "title": "CANCELACIÓN POR CAUSA DEL PROVEEDOR",
+          "content": [
+            "En el improbable caso de que Brand lift no pueda cumplir con la ejecución del servicio por causas directamente atribuibles a su operación, se ofrecerán alternativas de solución proporcionales, que podrán incluir: Ajuste de fechas de entrega, Asignación de nuevo equipo de trabajo, o Reembolso parcial o total, dependiendo del grado de avance del proyecto y los materiales entregados."
+          ]
+        },
+        {
+          "title": "PROYECTOS CON INVERSIÓN EXTERNA",
+          "content": [
+            "Cuando el servicio contratado implique la adquisición de recursos de terceros, tales como bancos de imágenes premium, música licenciada, fuentes tipográficas comerciales o servicios de producción externos, los costos ya erogados no son recuperables y no serán reembolados bajo ningún concepto.",
+            "La evaluación de compensación aplicará únicamente sobre la porción correspondiente al trabajo creativo propio de Brand lift."
+          ]
+        },
+        {
+          "title": "PROCEDIMIENTO DE CANCELACIÓN",
+          "content": [
+            "Para solicitar una cancelación o reembolso, el cliente deberá seguir el siguiente procedimiento:",
+            "1. Enviar solicitud por escrito al correo electrónico oficial proyectos@brandlift.com.mx indicando: Nombre o razón social del cliente, Número o referencia del proyecto, Servicio contratado, y Motivo de la cancelación o solicitud de reembolso.",
+            "2. Brand lift analizará el caso conforme a esta política y los documentos asociados al proyecto.",
+            "3. Se emitirá una respuesta por escrito en un plazo no mayor a siete (7) días hábiles, indicando la resolución y, en su caso, las alternativas aplicables.",
+            "En caso de proceder reembolso o compensación, el cliente deberá aceptar expresamente la resolución, tras lo cual se formalizará y ejecutará el acuerdo en los plazos comunicados.",
+            "El tiempo de reflejo del reembolso en la cuenta del cliente dependerá de los procesos internos y tiempos de liquidación de su institución bancaria o plataforma de pago, los cuales pueden variar y se encuentran fuera del control de Brand lift.",
+            "Una vez que el cliente acepte por escrito la alternativa propuesta, se considerará formalizado el acuerdo, y Brand lift procederá a ejecutar la medida acordada conforme a los plazos establecidos."
+          ]
+        },
+        {
+          "title": "CASOS ESPECIALES",
+          "content": [
+            "Errores de procesamiento: Si se detectan cargos duplicados, montos incorrectos o errores técnicos en el cobro, la corrección o reembolso se realizará de inmediato.",
+            "Incumplimiento comprobado: Si se demuestra que Brand lift no cumplió con los términos acordados sin causa justificada, se aplicarán medidas correctivas o reembolsos proporcionales al trabajo no realizado.",
+            "Fuerza mayor o contingencias extraordinarias: En situaciones excepcionales —como fallecimiento, incapacidad, desastres naturales, emergencias sanitarias o impedimentos legales—, la empresa evaluará el caso con criterios de equidad y flexibilidad, siempre que el cliente acredite debidamente la situación."
+          ]
+        },
+        {
+          "title": "DISPUTAS BANCARIAS",
+          "content": [
+            "Antes de iniciar una reclamación, contracargo o disputa ante la institución financiera, se solicita al cliente agotar primero el proceso interno de atención descrito en esta política. Esto permite resolver los casos de manera más eficiente, transparente y profesional.",
+            "En caso de que el cliente inicie una disputa bancaria sin haber contactado previamente a Brand lift, la Empresa podrá: Presentar ante la institución toda la evidencia documental y técnica que acredite la prestación del servicio; y Suspender temporalmente cualquier proyecto o servicio activo, hasta que se resuelva la controversia."
+          ]
+        },
+        {
+          "title": "CRITERIOS OBJETIVOS",
+          "content": [
+            "Aplicamos los mismos criterios de evaluación para todos los clientes independientemente del monto del proyecto, antigüedad de la relación comercial, o tipo de servicio contratado."
+          ]
+        },
+        {
+          "title": "INCONFORMIDADES",
+          "content": [
+            "Si no estás de acuerdo con la resolución inicial de tu solicitud, puedes solicitar que tu caso sea revisado nuevamente aportando información adicional relevante."
+          ]
+        },
+        {
+          "title": "ACTUALIZACIÓN DE LA POLÍTICA",
+          "content": [
+            "Esta política puede actualizarse. Las solicitudes se evalúan conforme a la versión vigente al momento de presentarse."
+          ]
+        }
+      ],
+      "footer": "Contacto: proyectos@brandlift.com.mx\nÚltima actualización: Junio 2026"
+    }
   },
   "quoteForm": {
     "successTitle": "¡Cotización Enviada!",
@@ -73,8 +396,6 @@
     "fullNamePlaceholder": "Juan Pérez",
     "email": "Correo Electrónico *",
     "emailPlaceholder": "juan@ejemplo.com",
-    "company": "Empresa",
-    "companyPlaceholder": "Tu Empresa",
     "phone": "Teléfono",
     "phonePlaceholder": "+52 (55) 0000-0000",
     "projectDetails": "Detalles del Proyecto",
@@ -96,13 +417,98 @@
       { "icon": "flexibility", "title": "Flexibilidad que Impulsa el Crecimiento", "description": "Nos adaptamos a cada necesidad con soluciones escalables, asegurando evolución continua y resultados." }
     ]
   },
+  "cart": {
+    "title": "Tu Carrito",
+    "item": "artículo",
+    "items": "artículos",
+    "emptyTitle": "Tu carrito está vacío",
+    "emptyDesc": "Explora nuestros servicios y agrega los que se adapten a tus necesidades.",
+    "btnBrowse": "Explorar Servicios",
+    "subtotal": "Subtotal",
+    "iva": "IVA (16%)",
+    "total": "Total",
+    "btnViewCart": "Ver Carrito",
+    "btnCheckout": "Proceder al Pago",
+    "btnQuote": "Solicitar Cotización",
+    "btnClear": "Vaciar Carrito"
+  },
+  "cartPage": {
+    "title": "Carrito de Compras",
+    "service": "Servicio",
+    "price": "Precio",
+    "quantity": "Cantidad",
+    "total": "Total",
+    "summaryTitle": "Resumen de Compra",
+    "subtotal": "Subtotal",
+    "iva": "IVA (16%)",
+    "totalToPay": "Total a Pagar",
+    "btnCheckout": "Proceder al Pago",
+    "btnContinue": "Seguir Comprando",
+    "emptyTitle": "Tu carrito está vacío",
+    "emptyDesc": "Agrega algunos servicios para continuar."
+  },
+  "checkout": {
+    "title": "Finalizar Compra",
+    "backToCart": "Volver al Carrito",
+    "billingDetails": "Detalles de Facturación",
+    "firstName": "Nombre *",
+    "lastName": "Apellidos *",
+    "country": "País / Región *",
+    "address": "Dirección *",
+    "city": "Localidad / Ciudad *",
+    "state": "Región / Estado *",
+    "zip": "Código postal *",
+    "phone": "Teléfono (Opcional)",
+    "email": "Correo electrónico *",
+    "notes": "Información adicional (Opcional)",
+    "paymentDetails": "Datos de la Tarjeta",
+    "nameOnCard": "Nombre en la tarjeta *",
+    "cardNumber": "Número de Tarjeta *",
+    "expiry": "Vencimiento (MM/AA) *",
+    "cvv": "CVV *",
+    "payButton": "Pagar",
+    "processing": "Procesando pago...",
+    "orderSummary": "Resumen del Pedido",
+    "subtotal": "Subtotal",
+    "iva": "IVA (16%)",
+    "total": "Total a Pagar",
+    "remove": "Quitar",
+    "qty": "Cant",
+    "successTitle": "¡Pago Exitoso!",
+    "successDesc": "Gracias por tu compra. Hemos enviado un recibo a",
+    "btnHome": "Volver al Inicio",
+    "errorDate": "Formato de fecha inválido. Usa MM/AA"
+  },
+  "aboutUs": {
+    "title": "Sobre Nosotros",
+    "missionTitle": "Nuestra Misión: Impulsar tu éxito y alcanzar tus metas",
+    "missionP1": "En el corazón de Brand Lift late una profunda pasión por elevar las aspiraciones de cada uno de nuestros clientes. Nuestra misión guía cada proyecto, llevándonos mucho más allá del desarrollo web convencional; aprovechamos todo el potencial del entorno digital para transformar ideas en experiencias con propósito, uniendo a nuestro equipo bajo una visión altamente creativa y humana.",
+    "missionP2": "Cada línea de código y cada detalle visual están pensados para diseñar soluciones a la medida de tus objetivos. Más que construir páginas web, creamos plataformas que inspiran crecimiento, fortalecen conexiones genuinas y materializan los sueños de quienes confían en nosotros. Para nuestro equipo, el mundo digital es un lienzo en blanco donde la innovación y la estrategia se fusionan para dar forma a realidades extraordinarias.",
+    "routeTitle": "La Ruta de Desarrollo en Brand Lift",
+    "route": [
+      { "step": "01", "title": "Definición de Requerimientos", "desc": "Analizamos tus necesidades y objetivos para trazar el camino ideal." },
+      { "step": "02", "title": "Diseño y Prototipado", "desc": "Creamos las primeras propuestas visuales y la estructura de tu proyecto." },
+      { "step": "03", "title": "Validación del Cliente", "desc": "Revisamos juntos los prototipos para asegurar que todo esté alineado con tu visión." },
+      { "step": "04", "title": "Desarrollo y Pruebas", "desc": "Construimos la solución digital y testeamos su funcionamiento al máximo." },
+      { "step": "05", "title": "Retroalimentación", "desc": "Escuchamos tus comentarios para pulir los últimos detalles antes del lanzamiento." },
+      { "step": "06", "title": "Lanzamiento y Mantenimiento", "desc": "Llevamos tu proyecto al mundo digital y nos aseguramos de que siga rindiendo al 100%." }
+    ],
+    "servicesTitle": "Servicios que Ofrecemos",
+    "servicesDesc": "En Brand Lift transformamos conceptos en experiencias visuales de alto impacto. Desarrollamos contenido gráfico, editorial y piezas animadas que potencian tu presencia online y proyectan el valor real de tu marca con total claridad y estilo.",
+    "solutionsTitle": "Conoce nuestras soluciones:",
+    "solutions": [
+      { "name": "Semilla Digital", "desc": "La opción ideal para emprendedores, creadores y marcas que están construyendo su imagen desde cero. Incluye el diseño de miniaturas, banners, piezas para redes sociales y testimonios básicos listos para su publicación." },
+      { "name": "Impulso Creativo", "desc": "Pensado para marcas personales, lanzamientos de ebooks y pequeños negocios que buscan dar el siguiente paso. Combina portadas digitales avanzadas, carruseles interactivos, anuncios estratégicos y testimonios intermedios que consolidan tu identidad visual." },
+      { "name": "Profesional Pro", "desc": "Diseñado a la medida de infoproductores y creadores de cursos online que exigen el máximo nivel. Integra portadas de categoría premium, maquetas (mockups) en 3D, videos animados y una coherencia visual impecable para todos tus canales." }
+    ]
+  },
 
   "servicesSection": {
     "badge": "Nuestros Servicios",
     "title": "Soluciones a la medida de tu proyecto",
     "description": "Diseñamos estrategias y desarrollos personalizados, integrando creatividad, tecnología y análisis para potenciar tu marca.",
     "btnQuote": "Solicitar Cotización Personalizada",
-    "startingFrom": "Desde",
+    "startingFrom": "MXN + IVA",
     "addToCart": "Agregar al Carrito"
   },
   "servicesList": [
@@ -110,180 +516,189 @@
       "id": "NTS-PKG-ORB",
       "name": "Paquete Órbita Digital",
       "category": "Paquete Órbita Digital",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=500&auto=format&fit=crop",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
       "price": 28036.00,
-      "description": "Un paquete diseñado para lanzamientos que incluye la portada y el mockup, un video con animación, un elemento GIF, un testimonio en versión premium y 5 horas de asesoría especializada.",
+      "description": "Para lanzamientos + incluye portada+mockup, video animado, GIF, testimonio premium y 5h especializadas. Total: $28,036",
       "features": []
     },
     {
       "id": "NTS-PKG-PRO",
       "name": "Paquete Profesional Pro",
       "category": "Paquete Profesional Pro",
-      "image": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?q=80&w=500&auto=format&fit=crop",
+      "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=800",
       "price": 21884.00,
-      "description": "Pensado para creadores de contenido y cursos en línea. Te ofrece 5 recursos de nivel premium: diseño de portada, mockup, un video animado, una plantilla de carrusel y un testimonio.",
+      "description": "Para creadores y cursos + 5 elementos premium (portada, mockup, video animado, carrusel, testimonio). Total: $21,884",
       "features": []
     },
     {
       "id": "NTS-PKG-IMP",
       "name": "Paquete Impulso Creativo",
       "category": "Paquete Impulso Creativo",
-      "image": "https://images.unsplash.com/photo-1542435503-956c469947f6?q=80&w=500&auto=format&fit=crop",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=800",
       "price": 12470.00,
-      "description": "Ideal para impulsar marcas personales. Este paquete contiene 5 productos clave: una miniatura (thumbnail) detallada, la portada, una imagen de nivel intermedio, un carrusel y un testimonio.",
+      "description": "Para marcas personales + incluye 5 elementos (thumbnail elaborado, portada, imagen intermedia, carrusel, testimonio). Total: $12,470",
+      "features": []
+    },
+    {
+      "id": "NTS-ADS-VID-ADV",
+      "name": "Video animado / motion graphics elaborado",
+      "category": "DISEÑO (anuncios)",
+      "image": "https://images.unsplash.com/photo-1555421689-d68471e189f2?auto=format&fit=crop&q=80&w=800",
+      "price": 10400.00,
+      "description": "Efectos, ilustraciones originales para anuncio.",
       "features": []
     },
     {
       "id": "NTS-PKG-SEM",
       "name": "Paquete Semilla Digital",
       "category": "Paquete Semilla Digital",
-      "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=500&auto=format&fit=crop",
+      "image": "https://images.unsplash.com/photo-1542435503-956c469947f6?auto=format&fit=crop&q=80&w=800",
       "price": 5294.00,
-      "description": "Excelente alternativa para creadores digitales. Te incluye 5 elementos esenciales como una miniatura, un diseño de imagen básico, una imagen destacada, un testimonio sencillo y 8 horas dedicadas al diseño.",
+      "description": "Ideal para creadores digitales + incluye 5 elementos (thumbnail, imagen simple, imagen destacada, testimonio básico y 8h diseño). Total: $5,294",
       "features": []
     },
     {
       "id": "NTS-ADS-CAR-6",
       "name": "Carrusel para anuncio (6 imágenes)",
       "category": "DISEÑO (anuncios)",
-      "image": "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?q=80&w=500&auto=format&fit=crop",
+      "image": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&q=80&w=800",
       "price": 5000.00,
-      "description": "Un conjunto de seis imágenes armadas con texto integrado y una estructura visual uniforme, listas para usarse en formatos de carrusel deslizable.",
+      "description": "Seis imágenes con texto y coherencia visual para carrusel deslizante.",
       "features": []
     },
     {
       "id": "NTS-TES-ADV",
       "name": "Testimonio – Avanzado / premium",
       "category": "Reviews y testimonios integrados al diseño",
-      "image": "https://images.unsplash.com/photo-1557200134-90327ee9fafa?q=80&w=500&auto=format&fit=crop",
+      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=800",
       "price": 5000.00,
-      "description": "Creación de elementos visuales a la medida que incluye animaciones directas en video corto o formato GIF. Te ofrece 4 formatos distintos y te da derecho a un límite de 6 correcciones.",
+      "description": "Ilustraciones o gráficos personalizados, animaciones simples (GIF o video corto), 4 formatos, hasta 6 revisiones.",
       "features": []
     },
     {
       "id": "NTS-DIS-EBOOK-PREM",
       "name": "Portada de libro digital/interactivo premium",
       "category": "DISEÑO",
-      "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?q=80&w=500&auto=format&fit=crop",
+      "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&q=80&w=800",
       "price": 5000.00,
-      "description": "El diseño integral de tu libro electrónico en 3 partes: el frente, la parte trasera y el lomo. Se entrega con ilustraciones hechas desde cero y la posibilidad de solicitar varias revisiones.",
+      "description": "3 piezas (frontal, contraportada y lomo), ilustraciones originales y más revisiones.",
       "features": []
     },
     {
       "id": "NTS-ADS-VID-BAS",
       "name": "Creatividad en video corto (10–30 seg) básica",
       "category": "DISEÑO (anuncios)",
-      "image": "https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?q=80&w=500&auto=format&fit=crop",
+      "image": "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?auto=format&fit=crop&q=80&w=800",
       "price": 4100.00,
-      "description": "Producción sencilla de clips de video de corta duración (entre 10 y 30 segundos). El entregable incorpora transiciones de texto animadas, láminas visuales y música de fondo básica.",
+      "description": "Animaciones de texto, slides y música básica.",
       "features": []
     },
     {
       "id": "NTS-TES-INT",
       "name": "Testimonio – Intermedio",
       "category": "Reviews y testimonios integrados al diseño",
-      "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=500&auto=format&fit=crop",
+      "image": "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=800",
       "price": 2600.00,
-      "description": "Mejora visual de imágenes con una edición fotográfica moderada. Se entregan distintas variantes que incluyen fondos personalizados, efectos de sombras y composiciones más detalladas.",
+      "description": "Retoque moderado de fotografía, varias versiones, fondo personalizado, sombras, composiciones más trabajadas.",
       "features": []
     },
     {
       "id": "NTS-DIS-EBOOK-F",
       "name": "Portada de ebook/libro digital (frontal)",
       "category": "DISEÑO",
-      "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=500&auto=format&fit=crop",
+      "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&q=80&w=800",
       "price": 2300.00,
-      "description": "Diseño exclusivo de la cara frontal de tu libro digital. Se enfoca en una estética limpia apoyada en una buena tipografía y una distribución balanceada de los componentes visuales. El archivo se envía directo en formato digital.",
+      "description": "Solo portada frontal, tipografía y diseño limpio, uso moderado de elementos. Entrega digital.",
       "features": []
     },
     {
-      "id": "NTS-DIS-THUMB-ADV",
-      "name": "Miniatura Avanzada / Premium",
-      "category": "DISEÑO",
-      "image": "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?q=80&w=500&auto=format&fit=crop",
-      "price": 1700.00,
-      "description": "Diseño detallado de miniaturas para plataformas de video. Incluye retoque fotográfico avanzado, efectos de iluminación y un estilo gráfico que destaca para mejorar los clics.",
-      "features": []
-    },
-    {
-      "id": "NTS-ADS-IMG-ADV",
-      "name": "Imagen para anuncio Avanzada / Premium",
+      "id": "NTS-ADS-IMG-I",
+      "name": "Imagen estática con efecto (intermedia)",
       "category": "DISEÑO (anuncios)",
-      "image": "https://images.unsplash.com/photo-1542744094-3a31f103e35f?q=80&w=500&auto=format&fit=crop",
-      "price": 1700.00,
-      "description": "Estrategia e imagen publicitaria optimizada para redes sociales. Cuenta con elementos visuales de alta calidad y un diseño pensado en la conversión de tus campañas.",
+      "image": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?auto=format&fit=crop&q=80&w=800",
+      "price": 1600.00,
+      "description": "Retoque, tres capas gráficas, adaptación a varias medidas (post + story, etc.).",
       "features": []
     },
     {
-      "id": "NTS-DIS-MOCKUP",
-      "name": "Diseño de Mockup",
+      "id": "NTS-DIS-IMG-DEST",
+      "name": "Imagen destacada para web/blog/redes",
       "category": "DISEÑO",
-      "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=500&auto=format&fit=crop",
-      "price": 1700.00,
-      "description": "Representación visual en tres dimensiones para tus productos digitales o físicos. Sirve para mostrar cómo se ve el producto en pantallas, empaques o dispositivos reales.",
+      "image": "https://images.pexels.com/photos/5076511/pexels-photo-5076511.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "price": 1400.00,
+      "description": "Banner/cabecera/portada de artículo. Foto + retoque + tipografía + adaptación a varios tamaños.",
       "features": []
     },
     {
       "id": "NTS-TES-BAS",
-      "name": "Testimonio – Básico",
+      "name": "Testimonio – Básico / sencillo",
       "category": "Reviews y testimonios integrados al diseño",
-      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=500&auto=format&fit=crop",
-      "price": 1500.00,
-      "description": "Formateo básico y limpio de reseñas o textos de clientes. Se adapta al estilo de tu marca para que los puedas publicar en tu web o redes sociales fácilmente.",
+      "image": "https://images.unsplash.com/photo-1512314889357-e157c22f938d?auto=format&fit=crop&q=80&w=800",
+      "price": 1300.00,
+      "description": "Texto + nombre del cliente + imagen. Diseño simple sin ilustraciones ni edición extra. Una versión.",
       "features": []
     },
     {
-      "id": "NTS-DIS-CARR-BAS",
-      "name": "Plantilla de carrusel básica",
-      "category": "DISEÑO",
-      "image": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?q=80&w=500&auto=format&fit=crop",
-      "price": 1400.00,
-      "description": "Estructura base para publicaciones deslizables en redes sociales. Cuenta con guías visuales sencillas para que puedas organizar tu contenido de forma ordenada.",
-      "features": []
-    },
-    {
-      "id": "NTS-DIS-THUMB-INT",
-      "name": "Miniatura Intermedia",
-      "category": "DISEÑO",
-      "image": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?q=80&w=500&auto=format&fit=crop",
-      "price": 1000.00,
-      "description": "Diseño de portada para videos con un balance adecuado de textos y edición fotográfica estándar, ideal para mantener un canal activo y ordenado.",
-      "features": []
-    },
-    {
-      "id": "NTS-ADS-IMG-INT",
-      "name": "Imagen para anuncio Intermedia",
+      "id": "NTS-ADS-IMG-S",
+      "name": "Imagen estática simple para anuncio FB/IG",
       "category": "DISEÑO (anuncios)",
-      "image": "https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=500&auto=format&fit=crop",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800",
       "price": 1000.00,
-      "description": "Diseño de un arte publicitario con textos claros y gráficos equilibrados, listo para lanzarse en pautas comerciales digitales.",
+      "description": "Texto + foto stock + diseño básico.",
       "features": []
     },
     {
-      "id": "NTS-DIS-IMG-FEAT",
-      "name": "Imagen destacada",
+      "id": "NTS-DIS-TH-E",
+      "name": "Thumbnail elaborado (2 versiones)",
       "category": "DISEÑO",
-      "image": "https://images.unsplash.com/photo-1561070791-26c113006238?q=80&w=500&auto=format&fit=crop",
-      "price": 1000.00,
-      "description": "Diseño de gráfico principal para usar en las secciones más importantes de tu sitio web, blogs o comunicados destacados.",
+      "image": "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "price": 970.00,
+      "description": "Retoque de foto, varias capas de texto, gráficos adicionales, estilo visual pulido. Un diseño, 2 versiones.",
       "features": []
     },
     {
-      "id": "NTS-DIS-THUMB-BAS",
-      "name": "Miniatura Básica",
-      "category": "DISEÑO",
-      "image": "https://images.unsplash.com/photo-1557200134-90327ee9fafa?q=80&w=500&auto=format&fit=crop",
-      "price": 600.00,
-      "description": "Armado básico de carátulas para contenido multimedia usando títulos legibles y fondos directos sin fotocomposiciones complejas.",
-      "features": []
-    },
-    {
-      "id": "NTS-ADS-IMG-BAS",
-      "name": "Imagen para anuncio Básica",
+      "id": "NTS-ADS-GIF-S",
+      "name": "GIF animado simple / cinemagraph básico",
       "category": "DISEÑO (anuncios)",
-      "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=500&auto=format&fit=crop",
+      "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80&w=800",
+      "price": 850.00,
+      "description": "Animación simple para uso en web o redes sociales.",
+      "features": []
+    },
+    {
+      "id": "NTS-HOR-3D",
+      "name": "Diseño mockups 3D (por hora)",
+      "category": "Packaging digital",
+      "image": "https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?auto=format&fit=crop&q=80&w=800",
       "price": 600.00,
-      "description": "Diseño gráfico esencial enfocado en un mensaje claro para anuncios de bajo presupuesto o campañas rápidas en redes.",
+      "description": "Tarifa por hora para generación de mockups/render 3D. No incluye IVA. Elige la cantidad de horas a contratar y posteriormente añádelas al carrito.",
+      "features": []
+    },
+    {
+      "id": "NTS-DIS-TH-S",
+      "name": "Thumbnail simple para YouTube / redes",
+      "category": "DISEÑO",
+      "image": "https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "price": 480.00,
+      "description": "Solo título + fondo + foto/gráfico sencillo. Un diseño. Uso de stock o fotos del cliente.",
+      "features": []
+    },
+    {
+      "id": "NTS-HOR-ESP",
+      "name": "Diseño gráfico especializado (por hora)",
+      "category": "Packaging digital",
+      "image": "https://images.unsplash.com/photo-1572044162444-ad60f128bdea?auto=format&fit=crop&q=80&w=800",
+      "price": 450.00,
+      "description": "Tarifa por hora de diseño gráfico especializado. No incluye IVA. Elige la cantidad de horas a contratar y posteriormente añádelas al carrito.",
+      "features": []
+    },
+    {
+      "id": "NTS-HOR-GRAL",
+      "name": "Diseño gráfico general (por hora)",
+      "category": "Packaging digital",
+      "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800",
+      "price": 120.00,
+      "description": "Tarifa por hora de diseño gráfico general. No incluye IVA. Elige la cantidad de horas a contratar y posteriormente añádelas al carrito.",
       "features": []
     }
   ]

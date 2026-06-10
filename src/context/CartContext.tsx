@@ -26,7 +26,9 @@ interface CartContextType {
   openCart: () => void;
   closeCart: () => void;
   totalItems: number;
-  totalPrice: number;
+  subtotal: number;
+  ivaAmount: number;
+  totalWithIva: number;
 }
 
 const CartContext = createContext<CartContextType | undefined>(undefined);
@@ -46,7 +48,6 @@ export function CartProvider({ children }: { children: ReactNode }) {
     setIsOpen(true);
   }, []);
 
-  // CORRECCIÓN: Manejo seguro de cotizaciones personalizadas
   const addCustomItem = useCallback((item: { id: string; name: string; price: number; description?: string; category?: string; image?: string }) => {
     setItems((prev) => {
       const existing = prev.find((i) => i.id === item.id);
@@ -58,7 +59,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
         quantity: 1,
         description: item.description || "Servicio Cotizado",
         category: item.category || "Cotización",
-        features: [], // Importante para que no rompa el .map() en otros componentes
+        features: [],
         image: item.image || ""
       }];
     });
@@ -79,12 +80,16 @@ export function CartProvider({ children }: { children: ReactNode }) {
   const closeCart = useCallback(() => setIsOpen(false), []);
 
   const totalItems = items.reduce((acc, item) => acc + item.quantity, 0);
-  const totalPrice = items.reduce((acc, item) => acc + item.price * item.quantity, 0);
+  
+  // NUEVOS CÁLCULOS
+  const subtotal = items.reduce((acc, item) => acc + item.price * item.quantity, 0);
+  const ivaAmount = subtotal * 0.16;
+  const totalWithIva = subtotal + ivaAmount;
 
   return (
     <CartContext.Provider value={{
       items, addItem, addCustomItem, removeItem, updateQuantity, clearCart,
-      isOpen, openCart, closeCart, totalItems, totalPrice,
+      isOpen, openCart, closeCart, totalItems, subtotal, ivaAmount, totalWithIva
     }}>
       {children}
     </CartContext.Provider>
